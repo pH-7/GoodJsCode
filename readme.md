@@ -1,3 +1,14 @@
+# Coode JS Code
+
+
+## 📖 Table of Contents
+
+
+1. [The “One Thing” principle 1️⃣](#the-one-thing-principle-1%EF%B8%8F⃣)
+2. [Don’t comment what it does ❌ Write what it does ✅](#dont-comment-what-it-does--write-what-it-does-)
+3. [Conditions into clear function names](#conditions-into-clear-function-names)
+
+
 ## The “One Thing” principle 1️⃣
 
 When writing a function, remind yourself that it should ideally do only one thing. Think about what you learned already concerning the comments. The code should say everything. No comments should be needed. Splitting the code into small readable functions and reusable portions of code will drastically make your code readable and eliminate the need of copy/paste the same piece of code just because they haven’t been properly moved into reusable functions/classes.
