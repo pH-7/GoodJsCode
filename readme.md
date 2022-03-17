@@ -357,7 +357,7 @@ if (payment.bonus.referral === 'friend') {
 return false;
 ```
 
-On this example, we can noticed how we could remove the complicated nested conditionals thanks to exiting the function as early as possible with the `return` statement.
+On this example, we can notice how we could remove the complicated nested conditionals thanks to exiting the function as early as possible with the `return` statement.
 
 **[⬆️ Back to top](#-table-of-contents)**
 
