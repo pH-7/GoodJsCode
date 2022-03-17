@@ -185,6 +185,8 @@ Moreover, your code will gain in consistency thanks to reusing the same packages
 
 Finally, if there is an improvement or bug fix needed, you will have to change only one place (the package) and not every impacted project.
 
+**[⬆️ Back to top](#-table-of-contents)**
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
