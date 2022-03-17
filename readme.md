@@ -9,6 +9,7 @@
 3. [Conditions into clear function names](#conditions-into-clear-function-names)
 4. [Boat anchor - Unused code](#boat-anchor---unused-code)
 5. [Minimalist code](#minimalist-code)
+6. [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
 
 
 ## The “One Thing” principle 1️⃣
@@ -981,7 +982,7 @@ if (props.address !== details.address) {
 
 ## About the Author
 
-**[Pierre-Henry Soria](https://ph7.me)**, super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
+**[Pierre-Henry Soria](https://ph7.me)**. Super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
 
 [![@phenrysay](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/phenrysay) 
  [![pH-7](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pH-7)
