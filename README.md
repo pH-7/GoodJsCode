@@ -1,2 +1,0 @@
-# GoodJsCode
-My GoodJsCode™ book
