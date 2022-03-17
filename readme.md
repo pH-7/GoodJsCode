@@ -7,6 +7,7 @@
 1. [The “One Thing” principle 1️⃣](#the-one-thing-principle-1%EF%B8%8F⃣)
 2. [Don’t comment what it does ❌ Write what it does ✅](#dont-comment-what-it-does--write-what-it-does-)
 3. [Conditions into clear function names](#conditions-into-clear-function-names)
+4. [Boat anchor - Unused code](#boat-anchor---unused-code)
 
 
 ## The “One Thing” principle 1️⃣
