@@ -8,6 +8,7 @@
 2. [Don’t comment what it does ❌ Write what it does ✅](#dont-comment-what-it-does--write-what-it-does-)
 3. [Conditions into clear function names](#conditions-into-clear-function-names)
 4. [Boat anchor - Unused code](#boat-anchor---unused-code)
+5. [Minimalist code](#minimalist-code)
 
 
 ## The “One Thing” principle 1️⃣
@@ -159,6 +160,8 @@ Coding in a minimalist way is the best pattern you can follow.
 
 Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code. There are so many ways to achieve the solution. And there is always a shorten and clearer version which should always be the chosen one. Think twice before starting writing your code what would be the simplest solution you can write.
 Brain storm about it. Later, you will save much more time while writing your code.
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
