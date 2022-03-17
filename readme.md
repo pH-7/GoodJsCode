@@ -49,7 +49,7 @@ if (isEligibleName(name)) {
 }
 ```
 
-**[⬆️ Back to top](#table-of-contents)**
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -89,6 +89,8 @@ if (isValidName('Peter')) {
 }
 ```
 
+**[⬆️ Back to top](#-table-of-contents)**
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -123,6 +125,8 @@ if (canQrCode(qrCodeData, 'visitor')) {
 Here, the code doesn’t need to be commented. The boolean function says what it does, producing a readable and clean code.
 Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing code duplications.
 
+**[⬆️ Back to top](#-table-of-contents)**
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -143,6 +147,8 @@ Nowadays, everybody uses a version control system like git, so there is always a
 ### ✅ Action to take
 
 Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused/commented code.
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
