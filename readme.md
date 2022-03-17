@@ -5,11 +5,12 @@
 
 
 1. [The “One Thing” principle 1️⃣](#the-one-thing-principle-1%EF%B8%8F⃣)
-2. [Don’t comment what it does ❌ Write what it does ✅](#dont-comment-what-it-does--write-what-it-does-)
+2. [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
 3. [Conditions into clear function names](#conditions-into-clear-function-names)
 4. [Boat anchor - Unused code](#boat-anchor---unused-code)
 5. [Minimalist code](#minimalist-code)
 6. [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
+7. [Tests come first. Never Last](#tests-come-first--never-last-)
 
 
 ## The “One Thing” principle 1️⃣
@@ -205,6 +206,8 @@ Never underestimate the importance of unit tests. Tests are there to help you de
 
 Create your tests even before changes your code. Create or update the current tests to expect the new behavior your will introduce in the codebase. Your test will then fail. Then, update the `src` of the project with the desire changes.
 Finally, run your unit tests. If the changes are correct and your tests are correctly written, your test should now pass 👍 Well done! You are now following the TDD development approach 💪
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -644,7 +647,7 @@ Here, we destruct the array as an object with its index number and give an alias
 
 ## Readable numbers
 
-With JavaScript, you can use numeric separators and exponential notations to make numbers easier to read. The execution of the code remains exactly the same, but it’s definitely easier to read.
+With JavaScript, you can use **numeric separators** and **exponential notations** to make numbers easier to read. The execution of the code remains exactly the same, but it’s definitely easier to read.
 
 ### ❌ Without numeric separators
 
@@ -977,6 +980,8 @@ if ('abc' === true) {
 if (props.address !== details.address) {
 }
 ```
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
