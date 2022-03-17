@@ -418,7 +418,8 @@ console.table(favoriteFruits);
 
 ![With console.table](https://user-images.githubusercontent.com/1325411/158784071-136971a3-8a81-448c-8c88-0c866cbcc6a8.jpeg)
 
-![](&&&SFLOCALFILEPATH&&&IMG_4749.png)
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
