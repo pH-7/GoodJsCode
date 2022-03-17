@@ -1,4 +1,4 @@
-# Coode JS Code
+# GoodJsCode™ Guidebook
 
 
 ## 📖 Table of Contents
