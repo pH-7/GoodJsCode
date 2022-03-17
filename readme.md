@@ -184,7 +184,10 @@ Splitting your code into small reusable external packages if the golden path. Ve
 Whether you are building a new project from scratch or implementing new features into it, always think about splitting your code early into small reusable internal NPM packages, so other potential products will be able to benefit from them and won’t have to reinvent the wheel.
 Moreover, your code will gain in consistency thanks to reusing the same packages.
 
-Finally, if there is an improvement or bug fix needed, you will have to change only one place (the package) and not every impacted project.
+Finally, if there is an improvement or bug fix needed, you will have to change only one single place (the package) and not every impacted project.
+
+🍰 Icing on the cake, you can make public some of your packages by open source them on GitHub and other online code repositories to get some free marketing coverage and potentially some good users of your library and contributors as well 💪
+
 
 **[⬆️ Back to top](#-table-of-contents)**
 
