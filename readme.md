@@ -49,6 +49,8 @@ if (isEligibleName(name)) {
 }
 ```
 
+**[⬆️ Back to top](#table-of-contents)**
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -966,3 +968,12 @@ if (props.address !== details.address) {
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
+
+
+## About the Author
+
+**[Pierre-Henry Soria](https://ph7.me)**, super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
+
+[![@phenrysay][twitter-image]](https://twitter.com/phenrysay) [![pH-7][github-image]](https://github.com/pH-7)
+
+[![Pierre-Henry Soria](https://s.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria personal website")
