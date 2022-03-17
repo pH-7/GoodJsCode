@@ -11,9 +11,9 @@
 5. [Minimalist code](#minimalist-code)
 6. [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
 7. [Tests come first. Never Last](#tests-come-first--never-last-)
-8. [Readable Name: Variables](#readable-name-variables)
+8. [Readable Name: Variables](#-readable-name-variables)
 9. [Import only what you need](#import-only-what-you-need)
-10. [Readable Names: Functions](#readable-names-functions)
+10. [Readable Names: Functions](#-readable-names-functions)
 11. [Guard Clauses approach](#guard-clauses-approach)
 
 
