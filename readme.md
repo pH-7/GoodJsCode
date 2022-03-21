@@ -547,37 +547,6 @@ Here, we stub only the individual method we need.
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Import only what you need
-
-Have the good practice of importing only the functions/variables you need. This will prevent against function/variable conflicts, but also optimizing your code and only expose the needed functions.
-
-### ❌ Importing everything
-
-```javascript
-import _ from 'lodash';
-
-// …
-
-if (_.isEmpty(something)) {
-  _.upperFirst(something);
-}
-```
-
-### ✅ Import only the needed ones
-
-```javascript
-import { isEmpty as _isEmpty, upperFirst as _upperFirst } from 'lodash';
-
-// …
-
-if (_isEmpty(something)) {
-  _upperFirst(something);
-}
-```
-
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
-
 ## Remove the redundant things
 
 When we code, we always tend to write things that are just useless without increasing the readability of the code either.
