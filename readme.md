@@ -643,7 +643,12 @@ When you need to destruct an array with JavaScript (ES6 and newer), and you want
 ### ❌ Bad Way
 
 ```javascript
-const meals = ['Breakfast', 'Lunch', 'Apéro', 'Dinner'];
+const meals = [
+  'Breakfast',
+  'Lunch',
+  'Apéro',
+  'Dinner'
+];
 
 const [, , , favoriteMeal] = meals;
 console.log(favoriteMeal); // Dinner
@@ -652,7 +657,12 @@ console.log(favoriteMeal); // Dinner
 ### ✅ Recommended readable way
 
 ```javascript
-const meals = ['Breakfast', 'Lunch', 'Apéro', 'Dinner'];
+const meals = [
+  'Breakfast', // index 0
+  'Lunch', // index 1
+  'Apéro', // index 2
+  'Dinner' // index 3
+];
 
 const { 3: favoriteMeal } = meals; // Get the 4th value, index '3'
 console.log(favoriteMeal); // Dinner
