@@ -15,6 +15,9 @@
 9. [Import only what you need](#import-only-what-you-need)
 10. [Readable Names: Functions](#readable-names-functions)
 11. [Guard Clauses approach](#guard-clauses-approach)
+12. [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
+13. [Demeter Law](#demeter-law)
+14. [Debugging efficiently](#debugging-efficiently)
 
 
 ## The “One Thing” principle 1️⃣
@@ -377,6 +380,8 @@ As soon as you commit files, your project needs a `.gitignore` file. It guarante
 When you publish your package to be used by a dependency manager, it’s crucial to exclude the developing files (such as the `tests` folders, `.github` configuration folder, `CONTRIBUTING.md`, `SECURITY.me`, `.gitignore`, `.gitattributes` itself, and so on…).
 Indeed, when you install a new package through your favorite package manager (npm, yarn, …), **you only want to download the required source files, that’s all** without including the test files, pipeline configuration files, etc, not needed for production.
 
+**[⬆️ Back to top](#-table-of-contents)**
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -401,6 +406,8 @@ object.doC();
 ```
 
 Each method doesn’t rely on each other. They are independent and safe from eventual refactoring.
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
