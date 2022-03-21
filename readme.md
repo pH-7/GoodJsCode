@@ -3,7 +3,6 @@
 
 ## 📖 Table of Contents
 
-
 1. [The “One Thing” principle 1️⃣](#the-one-thing-principle-1%EF%B8%8F⃣)
 2. [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
 3. [Conditions into clear function names](#conditions-into-clear-function-names)
@@ -18,6 +17,8 @@
 12. [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
 13. [Demeter Law](#demeter-law)
 14. [Debugging efficiently](#debugging-efficiently)
+15. [Fewer arguments are winder](#fewer-arguments-are-winder)
+16. [Stub/mock only what you need](#stubmock-only-what-you-need)
 
 
 ## The “One Thing” principle 1️⃣
@@ -59,7 +60,10 @@ if (isEligibleName(name)) {
 }
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -99,7 +103,10 @@ if (isValidName('Peter')) {
 }
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -135,7 +142,10 @@ if (canQrCode(qrCodeData, 'visitor')) {
 Here, the code doesn’t need to be commented. The boolean function says what it does, producing a readable and clean code.
 Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing code duplications.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -158,7 +168,10 @@ Nowadays, everybody uses a version control system like git, so there is always a
 
 Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused/commented code.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -170,7 +183,10 @@ Coding in a minimalist way is the best pattern you can follow.
 Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code. There are so many ways to achieve the solution. And there is always a shorten and clearer version which should always be the chosen one. Think twice before starting writing your code what would be the simplest solution you can write.
 Brain storm about it. Later, you will save much more time while writing your code.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -196,7 +212,10 @@ Finally, if there is an improvement or bug fix needed, you will have to change o
 🍰 Icing on the cake, you can make public some of your packages by open source them on GitHub and other online code repositories to get some free marketing coverage and potentially some good users of your library and contributors as well 💪
 
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -217,7 +236,10 @@ Never underestimate the importance of unit tests. Tests are there to help you de
 Create your tests even before changes your code. Create or update the current tests to expect the new behavior your will introduce in the codebase. Your test will then fail. Then, update the `src` of the project with the desire changes.
 Finally, run your unit tests. If the changes are correct and your tests are correctly written, your test should now pass 👍 Well done! You are now following the TDD development approach 💪
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -255,7 +277,10 @@ for (let currentPage = 1; currentPage <= totalItems; currentPage++) {
 }
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -288,7 +313,10 @@ if (_isEmpty(something)) {
 }
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -311,7 +339,10 @@ function removeSpecialCharactersUrl(url) {
 }
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -362,7 +393,10 @@ return false;
 
 On this example, we can notice how we could remove the complicated nested conditionals thanks to exiting the function as early as possible with the `return` statement.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -380,7 +414,10 @@ As soon as you commit files, your project needs a `.gitignore` file. It guarante
 When you publish your package to be used by a dependency manager, it’s crucial to exclude the developing files (such as the `tests` folders, `.github` configuration folder, `CONTRIBUTING.md`, `SECURITY.me`, `.gitignore`, `.gitattributes` itself, and so on…).
 Indeed, when you install a new package through your favorite package manager (npm, yarn, …), **you only want to download the required source files, that’s all** without including the test files, pipeline configuration files, etc, not needed for production.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -407,7 +444,10 @@ object.doC();
 
 Each method doesn’t rely on each other. They are independent and safe from eventual refactoring.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -443,6 +483,8 @@ console.table(favoriteFruits);
 
 **[⬆️ Back to top](#-table-of-contents)**
 
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -469,7 +511,12 @@ user = new User(id);
 function readItem(user: User) {}
 ```
 
-With this version, because there is are only relevant arguments, reusing the function elsewhere will be possible as the function doesn’t rely on unnecessary arguments.
+With this version, because it has only relevant arguments, reusing the function elsewhere will be possible as the function doesn’t rely or depend on unnecessary arguments/objects.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -491,6 +538,11 @@ sinon.stub(classToBeStubbed, 'myNeededFunction');
 ```
 
 Here, we stub only the individual method we need.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
