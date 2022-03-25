@@ -16,7 +16,7 @@ Time is so valuable and important that I only want to give you what you really n
 
 ## 📖 Table of Contents
 
-1. [The “One Thing” principle 1️⃣](#the-one-thing-principle-1%EF%B8%8F⃣)
+1. [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
 2. [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
 3. [Conditions into clear function names](#conditions-into-clear-function-names)
 4. [Boat anchor - Unused code](#boat-anchor---unused-code)
@@ -35,7 +35,7 @@ Time is so valuable and important that I only want to give you what you really n
 17. [Remove the redundant things](#remove-the-redundant-things)
 18. [Ego is your enemy](#ego-is-your-enemy-)
 19. [Don’t use abbreviations](#dont-use-abbreviations-)
-20. [🇺🇸 American English spelling. The default choice when coding](#-american-english-spelling-the-default-choice-when-coding)
+20. [American English spelling. The default choice when coding](#-american-english-spelling-the-default-choice-when-coding)
 21. [Destruct array elements in a readable way](#destructing-array-elements---make-it-readable)
 22. [Readable numbers](#readable-numbers)
 23. [Readable Names: Classes](#readable-names-classes)
