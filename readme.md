@@ -26,7 +26,29 @@
 21. [Destruct array elements in a readable way](#destructing-array-elements---make-it-readable)
 22. [Readable numbers](#readable-numbers)
 23. [Readable Names: Classes](#readable-names-classes)
+24. [Avoid “else-statement”](#avoid-else-statement)
+25. [Prioritize `async`/`await` over Promises](#prioritize-asyncawait-over-promises)
+26. [No magic numbers](#prioritize-asyncawait-over-promises)
+27. [Always use `assert.strictEqual`](#always-use-assertstrictequal)
+28. [Updating an object - The right way](#updating-an-object---the-right-way)
+29. [Stop using `Date()` when doing benchmarks](#stop-using-date-when-doing-benchmarks)
+30. [Lock down your object](#lock-down-your-object-)
+31. [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
+32. [Always use the strict type comparison](#always-use-the-strict-type-comparison)
 
+# Good Code™ - With JavaScript
+
+Hi! I’m Pierre-Henry Soria. I’m a highly passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
+
+I’ve been coding for over 10 years and I decided to share my knowledge in term of writing good code.
+
+On daily basis, I review hundreds of line of code. Brand new micro-services, new feature, new refactoring, hot fix, and so on. I’ve seen so many different coding styles as well as good and bad coding habits from the developers I’ve been working with.
+
+With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It’s a practical book. You won’t have superfluous information. Just the important things.
+Time is so valuable and important that I only want to give you what you really need to know, without unnecessary details only there to make the book fatter.
+
+
+---
 
 ## The “One Thing” principle 1️⃣
 
@@ -850,6 +872,11 @@ const getUrl = () => {
 
 With this approach, we leave the function early, preventing complicated and unreadable nested conditions in the future.
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -888,6 +915,11 @@ const isProfileNameAllowed = async (id) => {
 
 By using `async`/`await`, you avoid callback hell, which happens with promises chaining when data are passed through a sert of functions and leads to unmanageable code due to its nested fallbacks.
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -921,6 +953,11 @@ const POSTS_PER_PAGE = 20;
 getLatestBlogPost(0, POSTS_PER_PAGE);
 ```
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -941,6 +978,11 @@ assert.equal(validNumber, true);
 assert.strictEqual('+63464632781', phoneNumber);
 assert.isTrue(validNumber);
 ```
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -968,19 +1010,10 @@ const user = {
 };
 ```
 
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
 
-# Good Code™ - With JavaScript
+**[⬆️ Back to top](#-table-of-contents)**
 
-Hi! I’m Pierre-Henry Soria. I’m a highly passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
-
-I’ve been coding for over 10 years and I decided to share my knowledge in term of writing good code.
-
-On daily basis, I review hundreds of line of code. Brand new micro-services, new feature, new refactoring, hot fix, and so on. I’ve seen so many different coding styles as well as good and bad coding habits from the developers I’ve been working with.
-
-With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It’s a practical book. You won’t have superfluous information. Just the important things.
-Time is so valuable and important that I only want to give you what you really need to know, without unnecessary details only there to make the book fatter.
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -1009,6 +1042,11 @@ const end = performade.now();
 const executionTime = start - end;
 ```
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -1032,6 +1070,10 @@ const cannotBeChanged = { name: 'Pierre' } as const;
 cannotBeChanged = 'Henry'; // Won't be possible. JS will throw an error as `name` is now readonly
 ```
 
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -1053,6 +1095,10 @@ const { data: profile } = getUser(profileId);
 const profileName = profile.name;
 // ...
 ```
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
