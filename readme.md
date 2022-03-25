@@ -19,6 +19,13 @@
 14. [Debugging efficiently](#debugging-efficiently)
 15. [Fewer arguments are winder](#fewer-arguments-are-winder)
 16. [Stub/mock only what you need](#stubmock-only-what-you-need)
+17. [Remove the redundant things](#remove-the-redundant-things)
+18. [Ego is your enemy](#ego-is-your-enemy-]
+19. [Don’t use abbreviations](#dont-use-abbreviations-)
+20. [🇺🇸 American English spelling. The default choice when coding](#-american-english-spelling-the-default-choice-when-coding)
+21. [Destruct array elements in a readable way](#destructing-array-elements---make-it-readable)
+22. [Readable numbers](#readable-numbers)
+23. [Readable Names: Classes](#readable-names-classes)
 
 
 ## The “One Thing” principle 1️⃣
@@ -591,6 +598,11 @@ switch (action) {
 }
 ```
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -605,6 +617,11 @@ If you want to be a good developer, leave your ego in your closet. Never bring i
 ### ✅ See every feedback as a learning experience
 
 > When you write code, it’s not your code, it’s everybody’s else code. Don’t take what you write personally. It’s just a little part of the whole vessel.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -650,6 +667,11 @@ if (type === Type.MESSAGING_DOMAIN) {
 }
 ```
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -660,6 +682,11 @@ I always recommend to only use **US English** in your code. If you mix both Brit
 Most of the 3rd-party libraries are written in American English. As we use them in our codebase, we should prioritize US English as well in our code.
 I’ve seen codebase with words such as “_licence_” and “_license_”, “_colour_” and “_color_”, or “_organisation_” and “_organization_”.
 When you need to search for terms / refactor some code, and you find both spellings, it requires more time and consumes further brain space, which could have been avoided at the first place by following a consistent spelling.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -698,6 +725,11 @@ console.log(favoriteMeal); // Dinner
 
 Here, we destruct the array as an object with its index number and give an alias name `favoriteMeal` to it.
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
@@ -718,6 +750,11 @@ const largeNumbers = 1_000_000_000;
 ```
 
 _Note: numeric separators works also with other languages than JavaScript such as Python, Kotlin, …_
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
@@ -757,6 +794,11 @@ class Sanitizer {
 
 In this case, the class name clearly says what it does. It’s the opposite of a black box. By saying what it does, it should also follow the single responsibility principle of achieving only one single purpose.
 Class names should be a (singular) noun that starts with a capital letter. The class can also contain more than one noun, if so, each word has to be capitalized (this is called **UpperCamel** case).
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
