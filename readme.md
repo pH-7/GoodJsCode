@@ -2,7 +2,7 @@
 
 ## Write clean and elegant code, by following the good practices 🚀
 
-Hi! I’m Pierre-Henry Soria. I’m a highly passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
+Hi! 👋 I’m [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
 
 I’ve been coding for over 10 years and I decided to share my knowledge in term of writing good code.
 
@@ -33,7 +33,7 @@ Time is so valuable and important that I only want to give you what you really n
 15. [Fewer arguments are winder](#fewer-arguments-are-winder)
 16. [Stub/mock only what you need](#stubmock-only-what-you-need)
 17. [Remove the redundant things](#remove-the-redundant-things)
-18. [Ego is your enemy](#ego-is-your-enemy-]
+18. [Ego is your enemy](#ego-is-your-enemy-)
 19. [Don’t use abbreviations](#dont-use-abbreviations-)
 20. [🇺🇸 American English spelling. The default choice when coding](#-american-english-spelling-the-default-choice-when-coding)
 21. [Destruct array elements in a readable way](#destructing-array-elements---make-it-readable)
