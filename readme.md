@@ -1070,6 +1070,7 @@ const cannotBeChanged = { name: 'Pierre' } as const;
 cannotBeChanged = 'Henry'; // Won't be possible. JS will throw an error as `name` is now readonly
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
 
 ---
@@ -1095,6 +1096,7 @@ const { data: profile } = getUser(profileId);
 const profileName = profile.name;
 // ...
 ```
+
 
 **[⬆️ Back to top](#-table-of-contents)**
 
@@ -1125,7 +1127,10 @@ if (props.address !== details.address) {
 }
 ```
 
+
 **[⬆️ Back to top](#-table-of-contents)**
+
+---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
