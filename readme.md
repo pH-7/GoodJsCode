@@ -1,5 +1,18 @@
 # GoodJsCode™ Guidebook
 
+## Write clean and elegant code, by following the good practices 🚀
+
+Hi! I’m Pierre-Henry Soria. I’m a highly passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
+
+I’ve been coding for over 10 years and I decided to share my knowledge in term of writing good code.
+
+On daily basis, I review hundreds of line of code. Brand new micro-services, new feature, new refactoring, hot fix, and so on. I’ve seen so many different coding styles as well as good and bad coding habits from the developers I’ve been working with.
+
+With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It’s a practical book. You won’t have superfluous information. Just the important things.
+Time is so valuable and important that I only want to give you what you really need to know, without unnecessary details only there to make the book fatter.
+
+
+---
 
 ## 📖 Table of Contents
 
@@ -36,19 +49,6 @@
 31. [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
 32. [Always use the strict type comparison](#always-use-the-strict-type-comparison)
 
-# Good Code™ - With JavaScript
-
-Hi! I’m Pierre-Henry Soria. I’m a highly passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
-
-I’ve been coding for over 10 years and I decided to share my knowledge in term of writing good code.
-
-On daily basis, I review hundreds of line of code. Brand new micro-services, new feature, new refactoring, hot fix, and so on. I’ve seen so many different coding styles as well as good and bad coding habits from the developers I’ve been working with.
-
-With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It’s a practical book. You won’t have superfluous information. Just the important things.
-Time is so valuable and important that I only want to give you what you really need to know, without unnecessary details only there to make the book fatter.
-
-
----
 
 ## The “One Thing” principle 1️⃣
 
