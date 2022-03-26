@@ -1115,7 +1115,8 @@ When doing some kind of comparison, always use the `===` strict comparison.
 
 ```javascript
 if ('abc' == true) {
-} // this gives true
+} // this gives true ❌
+
 if (props.address != details.address) {
 } // the result might not be the one you expect
 ```
@@ -1124,7 +1125,8 @@ if (props.address != details.address) {
 
 ```javascript
 if ('abc' === true) {
-} // This is false 👍
+} // This is false ✅
+
 if (props.address !== details.address) {
 }
 ```
