@@ -1118,7 +1118,7 @@ if ('abc' == true) {
 } // this gives true ❌
 
 if (props.address != details.address) {
-} // the result might not be the one you expect
+} // result might not be what you expect
 ```
 
 ### ✅ Use strict comparisons
@@ -1128,7 +1128,7 @@ if ('abc' === true) {
 } // This is false ✅
 
 if (props.address !== details.address) {
-}
+} // Correct expectation
 ```
 
 
