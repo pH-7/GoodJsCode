@@ -2,14 +2,15 @@
 
 ## Write clean and elegant code, by following the good practices 🚀
 
-Hi! 👋 I’m [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium), I’m currently living in the wonderful land called “Australia” (Adelaide).
+Hi! 👋 I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium), I'm currently living in the wonderful land called “Australia” (Adelaide).
 
-I’ve been coding for over 10 years and I decided to share my knowledge in term of writing good code.
+I've been coding for over 10 years and I decided to share my knowledge in terms of writing good code.
 
-On daily basis, I review hundreds of line of code. Brand new micro-services, new feature, new refactoring, hot fix, and so on. I’ve seen so many different coding styles as well as good and bad coding habits from the developers I’ve been working with.
+On a daily basis, I review hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfix, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
 
-With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It’s a practical book. You won’t have superfluous information. Just the important things.
-Time is so valuable and important that I only want to give you what you really need to know, without unnecessary details only there to make the book fatter.
+With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It's a practical book. You won't have superfluous information. Just the important things.
+
+Time is so valuable and important that I only want to share what you need to know, without unnecessary details, to be there only for making the book fatter.
 
 
 ---
