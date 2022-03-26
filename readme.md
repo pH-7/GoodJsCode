@@ -454,7 +454,7 @@ Indeed, when you install a new package through your favorite package manager (np
 
 ## Demeter Law
 
-The **demeter law**, AKA the **principle of least knowledge** states that each unit of code should only have a very limited knowledge about other units of code. They should only talk to their close friends, not to their strangers 🙃 It shouldn’t have any knowledge on the inner details of the objects it manipulates.
+The **demeter law**, AKA the **principle of least knowledge** states that each unit of code should only have very limited knowledge about other units of code. They should only talk to their close friends, not to their strangers 🙃 It shouldn’t have any knowledge on the inner details of the objects it manipulates.
 
 ### ❌ Chaining methods
 
