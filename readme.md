@@ -251,20 +251,21 @@ Finally, if there is an improvement or bug fix needed, you will have to change o
 
 ## Tests come first 🏁 Never last ❌
 
-Never wait for the last moment to add some unit tests of the recent changes you have added. Too many developers underestimate their tests during the development stage.
+Never wait until the last moment to add some unit tests of the recent changes you have added. Too many developers underestimate their tests during the development stage.
 
-Don’t create a pull request without unit tests. The other developers reviewing your pull request are not only reviewing your changes but also your tests. Moreover, without unit tests, you have no idea if you introduce a new bug. Your new changes may not work as expected.
-Lastly, there will be much chance you won’t get time or rush up writing your tests if you push to later writing tests.
+Don’t create a pull request without unit tests. The other developers reviewing your pull request are not only reviewing your changes but also your tests. Moreover, without unit tests, you have no idea if you introduce a new bug. Your new changes may not work as expected. 
+Lastly, there will be chances you won’t get time or rush up writing your tests if you push them for later.
 
 ### ❌ Stop doing
 
-Never underestimate the importance of unit tests. Tests are there to help you developing fast in the long run.
+Never underestimate the importance of unit tests. Tests are there to help you developing faster in the long run.
 
 ### ✅ Start doing
 
-Create your tests even before changes your code. Create or update the current tests to expect the new behavior your will introduce in the codebase. Your test will then fail. Then, update the `src` of the project with the desire changes.
+Create your tests even before changing your code. Create or update the current tests to expect the new behavior you will introduce in the codebase. Your test will then fail. Then, update the `src`  of the project with the desired changes.
 Finally, run your unit tests. If the changes are correct and your tests are correctly written, your test should now pass 👍 Well done! You are now following the TDD development approach 💪
 
+Remember, unit tests are there to save your day 🎉 
 
 **[⬆️ Back to top](#-table-of-contents)**
 
