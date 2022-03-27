@@ -829,7 +829,7 @@ Class names should be a (singular) noun that starts with a capital letter. The c
 
 ## Avoid “else-statement”
 
-Similar to what I mentioned concerning importance of writing portions of code that only do “**One Thing**”, you should also avoid using the _if-else statement_.
+Similar to what I mentioned concerning the importance of writing portions of code that only do “**One Thing**”, you should also avoid using the _if-else statement_.
 
 Too many times, we see code such as below with unnecessary and pointless `else` blocks.
 
