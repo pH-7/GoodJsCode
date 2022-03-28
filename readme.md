@@ -676,9 +676,9 @@ switch (action) {
 
 ## Ego is your enemy ✋
 
-Too often I see developers who take the comments on their pull requests personally, because they see what they have done as their own creation. When you receive a change request, don’t feel judged! This is actually an improvement reward for yourself 🏆
+Too often I see developers taking the comments on their pull requests personally because they see what they have done as their own creation. When you receive a change request, don’t feel judged! This is actually an improvement reward for yourself 🏆
 
-If you want to be a good developer, leave your ego in your closet. Never bring it at work. This will just slow your progression down and could even pollute your brain space and the company culture.
+If you want to be a good developer, leave your ego in your closet. Never bring it to work. This will just slow your progression down and could even pollute your brain space and the company culture.
 
 ### ❌ Taking what others say as personally
 
