@@ -626,7 +626,7 @@ Here, we stub only the individual method we need.
 
 When we code, we always tend to write things that are just useless without increasing the readability of the code either.
 
-For instance, having a `default` clause which isn’t used.
+For instance, having a `default` clause that isn’t used.
 
 ### ❌ Redundant
 
