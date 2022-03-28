@@ -696,9 +696,9 @@ If you want to be a good developer, leave your ego in your closet. Never bring i
 
 ## Don’t use abbreviations 😐
 
-Abbreviations are hard to understand. For new joiners who aren’t familiar with the company’s terms. And even with common English abbreviations, they can be quite difficult to be understood by non-native English speakers whose might be hired in the future or when outsourcing developers from overseas.
+Abbreviations are hard to understand. For new joiners who aren’t familiar with the company’s terms. And even with common English abbreviations, they can be quite difficult to be understood by non-native English speakers who might be hired in the future or when outsourcing developers from overseas.
 
-Having as golden rule to never use abbreviations in your codebase (so at least, you’ll never have to take any further decisions on this topic) is critical for preventing confusions later on.
+Having as a golden rule to never use abbreviations in your codebase (so at least, you’ll never have to take any further decisions on this topic) is critical for preventing confusion later on.
 
 ### ❌ Difficult to read. Hard to remember over time
 
