@@ -17,38 +17,38 @@ Time is so valuable and important that I only want to share what you need to kno
 
 ## 📖 Table of Contents
 
-1. [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
-2. [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
-3. [Conditions into clear function names](#conditions-into-clear-function-names)
-4. [Boat anchor - Unused code](#boat-anchor---unused-code)
-5. [Minimalist code](#minimalist-code)
-6. [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
-7. [Tests come first. Never Last](#tests-come-first--never-last-)
-8. [Readable Name: Variables](#readable-name-variables)
-9. [Import only what you need](#import-only-what-you-need)
-10. [Readable Names: Functions](#readable-names-functions)
-11. [Guard Clauses approach](#guard-clauses-approach)
-12. [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
-13. [Demeter Law](#demeter-law)
-14. [Debugging efficiently](#debugging-efficiently)
-15. [Fewer arguments are winder](#fewer-arguments-are-winder)
-16. [Stub/mock only what you need](#stubmock-only-what-you-need)
-17. [Remove the redundant things](#remove-the-redundant-things)
-18. [Ego is your enemy](#ego-is-your-enemy-)
-19. [Don’t use abbreviations](#dont-use-abbreviations-)
-20. [American English spelling. The default choice when coding](#-american-english-spelling-the-default-choice-when-coding)
-21. [Destruct array elements in a readable way](#destructing-array-elements---make-it-readable)
-22. [Readable numbers](#readable-numbers)
-23. [Readable Names: Classes](#readable-names-classes)
-24. [Avoid “else-statement”](#avoid-else-statement)
-25. [Prioritize `async`/`await` over Promises](#prioritize-asyncawait-over-promises)
-26. [No magic numbers](#prioritize-asyncawait-over-promises)
-27. [Always use `assert.strictEqual`](#always-use-assertstrictequal)
-28. [Updating an object - The right way](#updating-an-object---the-right-way)
-29. [Stop using `Date()` when doing benchmarks](#stop-using-date-when-doing-benchmarks)
-30. [Lock down your object](#lock-down-your-object-)
-31. [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
-32. [Always use the strict type comparison](#always-use-the-strict-type-comparison)
+- [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
+- [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
+- [Conditions into clear function names](#conditions-into-clear-function-names)
+- [Boat anchor - Unused code](#boat-anchor---unused-code)
+- [Minimalist code](#minimalist-code)
+- [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
+- [Tests come first. Never Last](#tests-come-first--never-last-)
+- [Import only what you need](#import-only-what-you-need)
+- [Readable Name: Variables](#readable-name-variables)
+- [Readable Names: Functions](#readable-names-functions)
+- [Readable Names: Classes](#readable-names-classes)
+- [Guard Clauses approach](#guard-clauses-approach)
+- [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
+- [Demeter Law](#demeter-law)
+- [Debugging efficiently](#debugging-efficiently)
+- [Fewer arguments are winder](#fewer-arguments-are-winder)
+- [Stub/mock only what you need](#stubmock-only-what-you-need)
+- [Remove the redundant things](#remove-the-redundant-things)
+- [Ego is your enemy](#ego-is-your-enemy-)
+- [Don’t use abbreviations](#dont-use-abbreviations-)
+- [American English spelling. The default choice when coding](#-american-english-spelling-the-default-choice-when-coding)
+- [Destruct array elements in a readable way](#destructing-array-elements---make-it-readable)
+- [Readable numbers](#readable-numbers)
+- [Avoid “else-statement”](#avoid-else-statement)
+- [Prioritize `async`/`await` over Promises](#prioritize-asyncawait-over-promises)
+- [No magic numbers](#prioritize-asyncawait-over-promises)
+- [Always use `assert.strictEqual`](#always-use-assertstrictequal)
+- [Updating an object - The right way](#updating-an-object---the-right-way)
+- [Stop using `Date()` when doing benchmarks](#stop-using-date-when-doing-benchmarks)
+- [Lock down your object](#lock-down-your-object-)
+- [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
+- [Always use the strict type comparison](#always-use-the-strict-type-comparison)
 
 
 ## The “One Thing” principle 1️⃣
@@ -275,6 +275,42 @@ Remember, unit tests are there to save your day 🎉
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
+## Import only what you need
+
+Have the good practice of importing only the functions/variables you need. This will prevent against function/variable conflicts, but also optimizing your code and only expose the needed functions.
+
+### ❌ Importing everything
+
+```javascript
+import _ from 'lodash';
+
+// …
+
+if (_.isEmpty(something)) {
+  _.upperFirst(something);
+}
+```
+
+### ✅ Import only the needed ones
+
+```javascript
+import { isEmpty as _isEmpty, upperFirst as _upperFirst } from 'lodash';
+
+// …
+
+if (_isEmpty(something)) {
+  _upperFirst(something);
+}
+```
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 ## Readable Name: Variables
 
 Mentioning clear good names and explicit names for your variables is critical to prevent confusions. Sometimes, we spend more time understanding what a variable is supposed to contain rather than achieving the given task.
@@ -316,43 +352,7 @@ for (let currentPage = 1; currentPage <= totalItems; currentPage++) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Import only what you need
-
-Have the good practice of importing only the functions/variables you need. This will prevent against function/variable conflicts, but also optimizing your code and only expose the needed functions.
-
-### ❌ Importing everything
-
-```javascript
-import _ from 'lodash';
-
-// …
-
-if (_.isEmpty(something)) {
-  _.upperFirst(something);
-}
-```
-
-### ✅ Import only the needed ones
-
-```javascript
-import { isEmpty as _isEmpty, upperFirst as _upperFirst } from 'lodash';
-
-// …
-
-if (_isEmpty(something)) {
-  _upperFirst(something);
-}
-```
-
-
-**[⬆️ Back to top](#-table-of-contents)**
-
----
-
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
-
-## Readable Names: Functions
+## Readable Name: Functions
 
 ### ❌ Complicated function names
 
@@ -369,6 +369,50 @@ function removeSpecialCharactersUrl(url) {
   // …
 }
 ```
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
+## Readable Name: Classes
+
+### ❌ Generic/Vague name
+
+```javascript
+class Helper {
+  // Doesn't mean anything
+
+  stripUrl() {
+    // ...
+  }
+  // ...
+}
+```
+
+The class name is vague and doesn’t clearly communicate what it does. By reading the name, we don’t have a clear idea of what `Helper` contains and how to use it.
+
+### ✅ Clear/Explicit name
+
+```javascript
+class Sanitizer {
+  // Name is already more explicit
+  constructor(value) {
+    this.value = value;
+  }
+
+  url() {
+    this.value.replace('&amp;', '');
+    // ...
+  }
+}
+```
+
+In this case, the class name clearly says what it does. It’s the opposite of a black box. By saying what it does, it should also follow the single responsibility principle of achieving only one single purpose.
+Class names should be a (singular) noun that starts with a capital letter. The class can also contain more than one noun, if so, each word has to be capitalized (this is called **UpperCamel** case).
 
 
 **[⬆️ Back to top](#-table-of-contents)**
@@ -774,50 +818,6 @@ const largeNumbers = 1_000_000_000;
 ```
 
 _Note: numeric separators works also with other languages than JavaScript such as Python, Kotlin, …_
-
-
-**[⬆️ Back to top](#-table-of-contents)**
-
----
-
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
-
-## Readable Names: Classes
-
-### ❌ Generic/Vague name
-
-```javascript
-class Helper {
-  // Doesn't mean anything
-
-  stripUrl() {
-    // ...
-  }
-  // ...
-}
-```
-
-The class name is vague and doesn’t clearly communicate what it does. By reading the name, we don’t have a clear idea of what `Helper` contains and how to use it.
-
-### ✅ Clear/Explicit name
-
-```javascript
-class Sanitizer {
-  // Name is already more explicit
-  constructor(value) {
-    this.value = value;
-  }
-
-  url() {
-    this.value.replace('&amp;', '');
-    // ...
-  }
-}
-```
-
-In this case, the class name clearly says what it does. It’s the opposite of a black box. By saying what it does, it should also follow the single responsibility principle of achieving only one single purpose.
-Class names should be a (singular) noun that starts with a capital letter. The class can also contain more than one noun, if so, each word has to be capitalized (this is called **UpperCamel** case).
 
 
 **[⬆️ Back to top](#-table-of-contents)**
