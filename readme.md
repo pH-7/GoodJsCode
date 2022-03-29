@@ -1142,7 +1142,7 @@ if (props.address !== details.address) {
 
 ## About the Author
 
-**[Pierre-Henry Soria](https://ph7.me)**. Super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
+**[Pierre-Henry Soria](https://ph7.me)**. A super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
 
 [![@phenrysay](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/phenrysay) 
  [![pH-7](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pH-7)
