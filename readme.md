@@ -717,6 +717,12 @@ if (type === Type.MSG_DMN_EVT) {
   // We are on Messaging Domain Event
   // …
 }
+
+// ...
+
+const Indexfn = () => {
+  // index function
+}
 ```
 
 ### ✅ Clear names (without comments needed 👌)
@@ -732,6 +738,14 @@ if (type === Type.PEOPLE_ACTION) {
 
 if (type === Type.MESSAGING_DOMAIN) {
   // Logic here
+}
+
+// ...
+
+const index = () => {
+  // No need to have ´Fn’ or ´Function‘ as suffix
+  // Having ’function’ or ’method’ for an actual function is refundant is generally bad practice
+  // ...
 }
 ```
 
