@@ -720,7 +720,7 @@ if (type === Type.MSG_DMN_EVT) {
 
 // ...
 
-const Indexfn = () => {
+const IndexFn = () => {
   // index function
 }
 ```
@@ -743,8 +743,8 @@ if (type === Type.MESSAGING_DOMAIN) {
 // ...
 
 const index = () => {
-  // No need to have ´Fn’ or ´Function‘ as suffix
-  // Having ’function’ or ’method’ for an actual function is refundant is generally bad practice
+  // No need to have `Fn` or ˋFunction` as suffix in the name
+  // Having ˋfunction` or ˋmethod` for an actual function is refundant is generally bad practice
   // ...
 }
 ```
