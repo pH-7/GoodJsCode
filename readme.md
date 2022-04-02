@@ -1158,6 +1158,8 @@ if (props.address !== details.address) {
 
 **[Pierre-Henry Soria](https://ph7.me)**. A super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
 
+☕️ Did you enjoy this guideline book (that will most likely take your developer career to the next level)? If so, would you consider **[offering me a coffee](https://ko-fi.com/phenry)**?
+
 [![@phenrysay](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/phenrysay) 
  [![pH-7](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pH-7)
 
