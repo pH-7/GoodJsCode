@@ -233,7 +233,7 @@ In short, I’m in a trap. My architecture is just not scalable.
 
 Always think about reusibility. No matter how small or big is your project.
 
-Splitting your code into small reusable external packages will always speed you up in the long run. For instance, there will be time when you will need a very similar functionality to be used in another project for a another client’s application.
+Splitting your code into small reusable external packages will always speed you up in the long run. For instance, there will be times when you will need a very similar functionality to be used in another project for a another client’s application.
 
 Whether you are building a new project from scratch or implementing new features into it, always think about splitting your code early into small reusable internal NPM packages, so other potential products will be able to benefit from them and won’t have to reinvent the wheel.
 Moreover, your code will gain in consistency thanks to reusing the same packages.
