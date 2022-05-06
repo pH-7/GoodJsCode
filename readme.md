@@ -1157,7 +1157,7 @@ if (props.address !== details.address) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-### Always write pure functions
+## Always write pure functions
 
 A function is only pure if the **given input ALWAYS ~returns the same output~**.
 
