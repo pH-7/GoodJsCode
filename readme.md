@@ -356,7 +356,7 @@ for (let currentPage = 1; currentPage <= totalItems; currentPage++) {
 
 ## Readable Name: Functions
 
-### ❌ Complicated function names
+### ❌ Complicated (vague/unclear) function name
 
 ```javascript
 function cleaning(url) {
@@ -364,7 +364,7 @@ function cleaning(url) {
 }
 ```
 
-### ✅ Explicit descriptive names
+### ✅ Explicit descriptive name
 
 ```javascript
 function removeSpecialCharactersUrl(url) {
