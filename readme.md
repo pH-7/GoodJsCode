@@ -628,7 +628,7 @@ Here, we stub only the individual method we need.
 
 ## Remove the redundant things
 
-When we code, we always tend to write things that are just useless without increasing the readability of the code either.
+When we code, we always tend to write things that are "unnecessary" and which don't increase the readability of the code either.
 
 For instance, in a switch-statement, having a `default` clause that isn’t used.
 
