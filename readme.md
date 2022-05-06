@@ -49,6 +49,7 @@ Time is so valuable and important that I only want to share what you need to kno
 - [Lock down your object](#lock-down-your-object-)
 - [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
+- [Always write pure functions](#always-write-pure-functions)
 
 
 ## The “One Thing” principle 1️⃣
