@@ -1156,6 +1156,46 @@ if (props.address !== details.address) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
+### Always write pure functions
+
+A function is only pure if the **given input ALWAYS ~returns the same output~**.
+
+A pure function never produces side-effects, meaning that it cannot change any external states. The pure function only depends on its own arguments, and from the function's scope.
+
+```javascript
+function multiply(x, y) {
+    return x * y;
+}
+```
+
+A more tricky scenario can occur when you are passing an object.
+Imagine you are passing a “user” object to another function. If you modify the object “user” in the function, it will modify the actual user object because the object passed in as parameter is actually a reference of the object, which is the opposite of a distinct new cloned object. 
+
+To prevent this downside, you will have to deep clone the object first (you can use the loads *cloneDeep*function) and then Object.freeze(copyUser)  when returning it. This will guarantee the “copyUser” to be immutable.
+
+For instance:
+
+```javascript
+import { cloneDeep as _cloneDeep } from 'lodash';
+
+function changeUser(user) {
+  const copyUser = _cloneDeep(user); // copyUser = { …user };
+  copyUser.name = 'Edward Ford';
+  
+  return Object.freeze(copyUser);
+}
+```
+
+✅ A pure function makes the code easier to read, understand, and debug. You only need to focus your attention on the function itself without having to look at the surrounding environments, states and properties outside the function's scope.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 
 ## About the Author
 
