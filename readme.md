@@ -1159,7 +1159,7 @@ if (props.address !== details.address) {
 
 ## Always write pure functions
 
-A function is only pure if the **given input ALWAYS ~returns the same output~**.
+A function is only pure if the **given input <u>always returns the same output</u>**.
 
 A pure function never produces side-effects, meaning that it cannot change any external states. The pure function only depends on its own arguments, and from the function's scope.
 
