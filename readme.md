@@ -240,7 +240,7 @@ Remember, unit tests are there to save your day 🎉
 
 ## Import only what you need
 
-Have the good practice of importing only the functions/variables you need. This will prevent against function/variable conflicts, but also optimizing your code and only expose the needed functions.
+Have the good practice of importing only the functions/variables you need. This will prevent against function/variable conflicts, but also optimizing your code/improving the code readability by only expose the needed functions.
 
 ### ❌ Importing everything
 
