@@ -32,7 +32,7 @@ Time is so valuable and important that I only want to share what you need to kno
 - [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
 - [Demeter Law](#demeter-law)
 - [Debugging efficiently](#debugging-efficiently)
-- [Fewer arguments are winder](#fewer-arguments-are-winder)
+- [Fewer arguments is more efficient](#fewer-arguments-is-more-efficient)
 - [Stub/mock only what you need](#stubmock-only-what-you-need)
 - [Remove the redundant things](#remove-the-redundant-things)
 - [Ego is your enemy](#ego-is-your-enemy-)
@@ -564,9 +564,11 @@ console.table(favoriteFruits);
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Fewer arguments are winder
+## Fewer arguments is more efficient
 
 If your functions have more than 3 arguments, it means you could have written a much better and cleaner code. In short, the purpose of your function does too much and violates the single responsibility principle, leading to debugging and reusability hells.
+
+In short, the fewer arguments your function has, the more efficient it will become as you will prevent complexity in your code.
 
 ### ❌ Unclean code
 
