@@ -19,12 +19,12 @@ Time is so valuable and important that I only want to share what you need to kno
 
 - [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
 - [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
-- [Conditions into clear function names](#conditions-into-clear-function-names)
 - [Boat anchor - Unused code](#boat-anchor---unused-code)
 - [Minimalist code](#minimalist-code)
 - [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
 - [Tests come first. Never Last](#tests-come-first--never-last-)
 - [Import only what you need](#import-only-what-you-need)
+- [Conditions into clear function names](#conditions-into-clear-function-names)
 - [Readable Name: Variables](#readable-name-variables)
 - [Readable Name: Functions](#readable-name-functions)
 - [Readable Name: Classes](#readable-name-classes)
@@ -133,45 +133,6 @@ if (isValidName('Peter')) {
   // Valid ✅
 }
 ```
-
-
-**[⬆️ Back to top](#-table-of-contents)**
-
----
-
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
-
-## Conditions into clear function names
-
-### ❌ Non-readable condition
-
-```javascript
-const { active, feature, setting } = qrCodeData;
-
-if (active && feature === 'visitor' && setting.name.length > 0) {
-  // …
-}
-```
-
-The condition is hard to read, long, not reusable, and would very likely need to be documented as well.
-
-### ✅ Clear boolean conditional function
-
-```javascript
-const canQrCode = ({ active, feature, setting }, featureName) => {
-  return active && feature === 'visitor' && setting.name.length > 0;
-};
-
-// …
-
-if (canQrCode(qrCodeData, 'visitor')) {
-  // …
-}
-```
-
-Here, the code doesn’t need to be commented. The boolean function says what it does, producing a readable and clean code.
-Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing code duplications.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
@@ -304,6 +265,45 @@ if (_isEmpty(something)) {
   _upperFirst(something);
 }
 ```
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
+## Conditions into clear function names
+
+### ❌ Non-readable condition
+
+```javascript
+const { active, feature, setting } = qrCodeData;
+
+if (active && feature === 'visitor' && setting.name.length > 0) {
+  // …
+}
+```
+
+The condition is hard to read, long, not reusable, and would very likely need to be documented as well.
+
+### ✅ Clear boolean conditional function
+
+```javascript
+const canQrCode = ({ active, feature, setting }, featureName) => {
+  return active && feature === 'visitor' && setting.name.length > 0;
+};
+
+// …
+
+if (canQrCode(qrCodeData, 'visitor')) {
+  // …
+}
+```
+
+Here, the code doesn’t need to be commented. The boolean function says what it does, producing a readable and clean code.
+Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing code duplications.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
