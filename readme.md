@@ -865,7 +865,7 @@ const getUrl = () => {
 
 This code could easily be replaced by a clearer version.
 
-### ✅ Option 1: Use default values
+### ✅ Option 1. Use default values
 
 ```javascript
 const getUrl = () => {
@@ -879,7 +879,7 @@ const getUrl = () => {
 
 By having a default value, we remove the need of a `else {}` block.
 
-### ✅ Option 2: Use Guard Clauses approach
+### ✅ Option 2. Use Guard Clauses approach
 
 ```javascript
 const getUrl = () => {
