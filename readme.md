@@ -632,7 +632,7 @@ When we code, we often tend to write "unnecessary" things, which don't increase 
 
 For instance, in a switch-statement, having a `default` clause that isn’t used.
 
-### ❌ Redundant
+### ❌ Redundant version
 
 ```javascript
 const PRINT_ACTION = 'print';
