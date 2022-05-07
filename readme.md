@@ -385,12 +385,13 @@ function removeSpecialCharactersUrl(url) {
 ### ❌ Generic/Vague name
 
 ```javascript
-class Helper {
-  // Doesn't mean anything
+class Helper { // 'Helper' doesn't mean anything
 
-  stripUrl() {
+  stripUrl(url) {
     // ...
+    return url.replace('&amp;', '');
   }
+
   // ...
 }
 ```
