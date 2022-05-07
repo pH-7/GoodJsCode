@@ -401,8 +401,8 @@ The class name is vague and doesn’t clearly communicate what it does. By readi
 ### ✅ Clear/Explicit name
 
 ```javascript
-class Sanitizer {
-  // Name is already more explicit
+class Sanitizer { // <- Name is already more explicit
+
   constructor(value) {
     this.value = value;
   }
