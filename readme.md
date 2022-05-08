@@ -22,7 +22,7 @@ Time is so valuable and important that I only want to share what you need to kno
 - [Boat anchor - Unused code](#boat-anchor---unused-code)
 - [Minimalist code](#minimalist-code)
 - [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
-- [Tests come first. Never Last](#tests-come-first--never-last-)
+- [Tests come first. Never Last](#-tests-come-first-never-last)
 - [Import only what you need](#import-only-what-you-need)
 - [Conditions into clear function names](#conditions-into-clear-function-names)
 - [Readable Name: Variables](#readable-name-variables)
@@ -213,16 +213,20 @@ Finally, if there is an improvement or bug fix needed, you will have to change o
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Tests come first 🏁 Never last ❌
+## 🏁 Tests come first. Never last
 
-Never wait until the last moment to add some unit tests of the recent changes you have added. Too many developers underestimate their tests during the development stage.
+**Never wait until the last moment to add some unit tests of the recent changes you have added**. 
 
-Don’t create a pull request without unit tests. The other developers reviewing your pull request are not only reviewing your changes but also your tests. Moreover, without unit tests, you have no idea if you introduce a new bug. Your new changes may not work as expected. 
+Too many developers underestimate their tests during the development stage.
+
+Don’t create a pull request without unit tests. The other developers reviewing your pull request are not only reviewing your changes but also your tests. 
+
+Moreover, without unit tests, you have no idea if you introduce a new bug. Your new changes may not work as expected. 
 Lastly, there will be chances you won’t get time or rush up writing your tests if you push them for later.
 
 ### ❌ Stop doing
 
-Never underestimate the importance of unit tests. Tests are there to help you developing faster in the long run.
+Stop neglecting the importance of unit tests. Tests are there to help you developing faster in the long run.
 
 ### ✅ Start doing
 
