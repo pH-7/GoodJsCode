@@ -1192,7 +1192,7 @@ function changeUser(user) {
 }
 ```
 
-✅ A pure function makes the code easier to read, understand, and debug. You only need to focus your attention on the function itself without having to look at the surrounding environments, states and properties outside the function's scope.
+✅ By writing pure functions, you will make the code easier to be read and understood. You only need to focus your attention on the function itself without having to look at the surrounding environments, states and properties outside the function's scope, and preventing you to spend hours in debugging.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
