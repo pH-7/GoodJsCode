@@ -66,7 +66,7 @@ function retrieveName(user) {
 }
 ```
 
-### ✅ One Thing. Read & Clear
+### ✅ One Thing. Neat & Clean
 
 ```javascript
 const isRegularUser = (name) => {
@@ -85,7 +85,8 @@ const isEligibleName(name) {
 
 function retrieveName(user) {
   const name = user?.name;
-if (isEligibleName(name)) {
+
+  if (isEligibleName(name)) {
     return user.name;
   }
 }
