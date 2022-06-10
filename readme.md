@@ -308,7 +308,7 @@ if (canQrCode(qrCodeData, 'visitor')) {
 ```
 
 Here, the code doesn’t need to be commented. The boolean function says what it does, producing a readable and clean code.
-Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing code duplication.
+Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing the chance of duplicating code.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
