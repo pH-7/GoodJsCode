@@ -102,7 +102,7 @@ function retrieveName(user) {
 
 ## Don’t comment what it does ❌ Write what it does ✅
 
-It’s crucial to name your functions and variable names exactly what they do.
+It's crucial to name your functions and variables in simple and explicit words so that they say what they do (just by reading their names).
 
 If the code requires too many comments to be understood, the code needs to be refactored. The code has to be understood by reading it. Not by reading the comments. And the same applies when you write tests.
 
