@@ -112,7 +112,7 @@ Your code has to be your comments. At the end of the day, as developers, we tend
 
 ```javascript
 let validName = false;
-// We check if the name of valid by checking its length
+// We check if name is valid by checking its length
 if (name.length >= 3 && name.length <= 20) {
   validName = true;
   // Now we know the name is valid
