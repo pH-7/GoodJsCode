@@ -293,7 +293,7 @@ if (active && feature === 'visitor' && setting.name.length > 0) {
 
 The condition is hard to read, long, not reusable, and would very likely need to be documented as well.
 
-### ✅ Clear boolean conditional function
+### ✅ Clear boolean function
 
 ```javascript
 const canQrCode = ({ active, feature, setting }, featureName) => {
@@ -307,7 +307,8 @@ if (canQrCode(qrCodeData, 'visitor')) {
 }
 ```
 
-Here, the code doesn’t need to be commented. The boolean function says what it does, producing a readable and clean code.
+Here, the code doesn’t need to be commented. The boolean conditional function says exactly what it does, producing a readable and clean code 🚀
+
 Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing the chance of duplicating code.
 
 
