@@ -757,7 +757,7 @@ if (type === Type.MESSAGING_DOMAIN) {
 
 const index = () => {
   // No need to have `Fn` or ˋFunction` as suffix in the name
-  // Having ˋfunction` or ˋmethod` for an actual function is refundant is generally bad practice
+  // Having ˋfunction` or ˋmethod` for an actual function is redundant and generally bad practice
   // ...
 }
 ```
