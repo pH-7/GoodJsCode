@@ -1207,6 +1207,24 @@ function changeUser(user) {
 <!-- (c) Pierre-Henry Soria -->
 
 
+## Use the prefix TODO and FIXME comment (when really need to comment)
+
+If you have to come back and change something later, you might need to comment in your code, but then you must use the TODO or FIXME prefix, so that your code will be highlighted in the majority of IDEs.
+
+
+```javascript
+// TODO this one will be done in <JIRA TICKET ID>
+function something () {}
+```
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
+
 ## About the Author
 
 **[Pierre-Henry Soria](https://ph7.me)**. A super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
