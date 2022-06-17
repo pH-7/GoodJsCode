@@ -1168,7 +1168,7 @@ if (props.address !== details.address) {
 
 ## Always write pure functions
 
-A function is only pure if the **given input <ins>always returns the same output</ins>**.
+Given the input of the function, a pure function <ins>always returns the same output</ins>.
 
 A pure function never produces side-effects, meaning that it doesn't change any external states from another function. The pure function only depends on its arguments and from the function's scope itself.
 
@@ -1178,7 +1178,7 @@ function addition(x, y) {
 }
 ```
 
-A more tricky scenario can occur when you are passing an object.
+A trickier scenario can occur when you are passing an object.
 Imagine you are passing a “user” object to another function. If you modify the object “user” in the function, it will modify the actual user object because the object passed in as parameter is actually a reference of the object, which is the opposite of a distinct new cloned object. 
 
 To prevent this downside, you will have to deep clone the object first (you can use the loads *cloneDeep*function) and then Object.freeze(copyUser)  when returning it. This will guarantee the “copyUser” to be immutable.
