@@ -54,7 +54,7 @@ Time is so valuable and important that I only want to share what you need to kno
 
 ## The “One Thing” principle 1️⃣
 
-When writing a function, remind yourself that it should ideally do only one thing. Think about what you learned already concerning the comments. The code should say everything. No comments should be needed. Splitting the code into small readable functions and reusable portions of code will drastically make your code readable and eliminate the need of copy/paste the same piece of code just because they haven’t been properly moved into reusable functions/classes.
+When writing a function, remind yourself that it should ideally do only one thing. Think about what you learned already concerning the comments. The code should say everything. No comments should be needed. Splitting the code into small readable functions and reusable portions of code will drastically make your code readable and eliminate the need to copy/paste the same piece of code just because it hasn’t been properly moved into reusable functions/classes.
 
 ### ❌ Non-readable function
 
