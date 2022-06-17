@@ -1213,8 +1213,8 @@ If you have to come back and change something later, you might need to comment i
 
 
 ```javascript
-// TODO this one will be done in <JIRA TICKET ID>
-function something () {}
+// TODO this one will be done in <JIRA-TICKET-ID>
+function somethingMeaningful() {}
 ```
 
 **[⬆️ Back to top](#-table-of-contents)**
