@@ -1170,11 +1170,11 @@ if (props.address !== details.address) {
 
 A function is only pure if the **given input <ins>always returns the same output</ins>**.
 
-A pure function never produces side-effects, meaning that it cannot change any external states. The pure function only depends on its own arguments, and from the function's scope.
+A pure function never produces side-effects, meaning that it doesn't change any external states from another function. The pure function only depends on its arguments and from the function's scope itself.
 
 ```javascript
-function multiply(x, y) {
-    return x * y;
+function addition(x, y) {
+    return x + y;
 }
 ```
 
