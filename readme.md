@@ -884,6 +884,7 @@ const getUrl = () => {
     url = options.url;
   }
   return url;
+}
 ```
 
 By having a default value, we remove the need of a `else {}` block.
