@@ -935,9 +935,8 @@ const isProfileNameAllowed = async (id) => {
     const profile await profileModel.get(id);
     const {value: result } = await Ban.name(profile.name);
     return result;
-    } catch (err) {
-      logger.error({ message: err.message });
-    }
+  } catch (err) {
+    logger.error({ message: err.message });
   }
 }
 ```
