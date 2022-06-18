@@ -869,7 +869,7 @@ const getUrl = () => {
   } else {
     return DEFAULT_URL;
   }
-};
+}
 ```
 
 This code could easily be replaced by a clearer version.
@@ -887,7 +887,7 @@ const getUrl = () => {
 }
 ```
 
-By having a default value, we remove the need of a `else {}` block.
+By having a default value declared in an upper variable, we remove the need of a `else {}` block.
 
 ### ✅ Option 2. Use Guard Clauses approach
 
@@ -897,7 +897,7 @@ const getUrl = () => {
     return options.url; // if true, we return `options.url` and leave the function
   }
   return DEFAULT_URL;
-};
+}
 ```
 
 With this approach, we leave the function early, preventing complicated and unreadable nested conditions in the future.
