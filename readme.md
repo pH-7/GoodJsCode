@@ -1207,13 +1207,15 @@ function changeUser(user) {
 <!-- (c) Pierre-Henry Soria -->
 
 
-## Use the prefix TODO and FIXME comment (when really need to comment)
+## Use the TODO and FIXME prefix in your comments (when really need to comment)
 
 If you have to come back and change something later, you might need to comment in your code, but then you must use the TODO or FIXME prefix, so that your code will be highlighted in the majority of IDEs.
 
 
+✅ Example 👇
+
 ```javascript
-// TODO this one will be done in <JIRA-TICKET-ID>
+// TODO <JIRA-TICKET-ID> Change the logic to reflect to the release of productB
 function somethingMeaningful() {}
 ```
 
