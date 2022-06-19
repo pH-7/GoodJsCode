@@ -63,6 +63,7 @@ function retrieveName(user) {
   if (user.name && user.name !=== 'admin' && user.name.length >= 5) {
     return user.name;
   }
+  // ...
 }
 ```
 
