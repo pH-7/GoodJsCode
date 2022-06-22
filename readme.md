@@ -612,15 +612,15 @@ With this version, because it has only relevant arguments, reusing the function 
 
 ## Stub/mock only what you need
 
-When you stub an object (with Sinon for instance), it’s a good and clean practice to decide only what functions you need to stub out, instead of stubbing out the entier object. Doing so, you also prevent overriding internal implementations of functions which cause all sorts of inconsistencies in your business logic.
+When you stub an object in your tests (with Sinon for instance), it’s a good and clean practice to decide only what functions you need to stub out, instead of stubbing out the entier object. Doing so, you also prevent overriding internal implementations of functions which cause all sorts of inconsistencies in your business logic.
 
-### ❌ Everything is stub
+### ❌ Everything is stubbed
 
 ```javascript
 sinon.stub(classToBeStubbed);
 ```
 
-### ✅ Stub only what you need
+### ✅ Only the function you need is stubbed
 
 ```javascript
 sinon.stub(classToBeStubbed, 'myNeededFunction');
