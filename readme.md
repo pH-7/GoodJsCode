@@ -1228,6 +1228,23 @@ function somethingMeaningful() {}
 <!-- (c) Pierre-Henry Soria -->
 
 
+## Linters and Formatters
+
+Indentation is also very important. Having consistent code that follows the same coding conventions across your products will help to ship clean and readable code.
+
+For doing so, it’s crucial to use ESLint and Prettier on your code editor (e.g., VS Code) as well as set up some git hooks (on pre-commit or pre-push hook) which will run ESLint as a pre-check for when you git commit/push your code.
+
+Finally, you can very easily set up a GitHub workflow action for your project.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
+
 ## About the Author
 
 **[Pierre-Henry Soria](https://ph7.me)**. A super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
