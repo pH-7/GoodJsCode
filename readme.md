@@ -943,7 +943,7 @@ const isProfileNameAllowed = async (id) => {
 }
 ```
 
-By using `async`/`await`, you avoid callback hell, which happens with promises chaining when data are passed through a sert of functions and leads to unmanageable code due to its nested fallbacks.
+By using `async`/`await`, you avoid callback hell, which happens with promises chaining when data are passed through a set of functions and leads to unmanageable code due to its nested fallbacks.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
