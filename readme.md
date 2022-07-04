@@ -52,7 +52,7 @@ Time is so valuable and important that I only want to share what you need to kno
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
 - [Always write pure functions](#always-write-pure-functions)
 - [Linters and Formatters](#linters-and-formatters)
-- [About the author]()
+- [About the author](#about-the-author)
 
 
 ## The “One Thing” principle 1️⃣
