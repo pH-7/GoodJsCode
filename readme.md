@@ -174,7 +174,10 @@ Add a BitBucket/GitHub pipeline or a git hook on your project level for rejectin
 
 Coding in a minimalist way is the best pattern you can follow.
 
-Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code. There are so many ways to achieve the solution. And there is always a shorten and clearer version which should always be the chosen one. Think twice before starting writing your code what would be the simplest solution you can write.
+Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code. There are so many ways to achieve a solution. And there is always a shorten and cleaner version which should always be the chosen one.
+
+Think twice before starting writing your code. Ask yourself: “what would be the simplest and elegant solution I can write”, so that the written code can be well-maintained overtime and very easily understood by other developers who don't have the context in mind.
+
 Brain storm about it. Later, you will save much more time while writing your code.
 
 
@@ -184,6 +187,24 @@ Brain storm about it. Later, you will save much more time while writing your cod
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
+
+
+## You Aren't Gonna Need It (YAGNI)
+
+❌ Don't code things “*just in case*” you might need it for later.
+
+✅ You need to solve today's problem today and tomorrow's problem tomorrow.
+
+Don't spend time and resources on what you might not need.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 
 ## Reuse your code across your different projects by packing them into small NPM libraries
 
