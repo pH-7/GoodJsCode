@@ -204,6 +204,7 @@ Don't spend time and resources on what you might not need.
 ✅ You need to solve today's problem today and tomorrow's problem tomorrow.
 
 
+
 **[⬆️ Back to top](#-table-of-contents)**
 
 ---
@@ -231,7 +232,7 @@ Moreover, your code will gain in consistency thanks to reusing the same packages
 
 Finally, if there is an improvement or bug fix needed, you will have to change only one single place (the package) and not every impacted project.
 
-🍰 Icing on the cake, you can make public some of your packages by open source them on GitHub and other online code repositories to get some free marketing coverage and potentially some good users of your library and contributors as well 💪
+Icing on the cake, you can make public some of your packages by open source them on GitHub and other online code repositories to get some free marketing coverage and potentially some good users of your library and contributors as well 💪
 
 
 
@@ -263,6 +264,7 @@ Create your tests even before changing your code. Create or update the current t
 Finally, run your unit tests. If the changes are correct and your tests are correctly written, your test should now pass 👍 Well done! You are now following the TDD development approach 💪
 
 Remember, unit tests are there to save your day 🎉 
+
 
 **[⬆️ Back to top](#-table-of-contents)**
 
@@ -337,7 +339,7 @@ if (canQrCode(qrCodeData, 'visitor')) {
 
 Here, the code doesn’t need to be commented. The boolean conditional function says exactly what it does, producing a readable and clean code 🚀
 
-Icing on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing the chance of duplicating code.
+🍰 Cherry on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing the chance of duplicating code.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
@@ -1246,6 +1248,7 @@ If you have to come back and change something later, you might need to comment i
 // TODO <JIRA-TICKET-ID> Change the logic to reflect to the release of productB
 function somethingMeaningful() {}
 ```
+
 
 **[⬆️ Back to top](#-table-of-contents)**
 
