@@ -179,9 +179,9 @@ Each time you need to create a new feature or add something to a project, see ho
 
 There are so many ways to achieve a solution. And there is always a shorten and cleaner version which should always be the chosen one.
 
-Think twice before starting writing your code. Ask yourself “*what would be the simplest and elegant solution I can write*”, so that the written code can be well-maintained overtime and very easily understood by other developers who don't have the context (reason of the change) in mind.
+Think twice before starting writing your code. Ask yourself “*what would be the simplest and most elegant solution I can write*”, so that the written code can be well-maintained over time and very easily understood by other developers who don't have the context (reason of the change) in mind.
 
-Brain storm about it. Later, you will save much more time while writing your code.
+Brainstorm about it. Later, you will save much more time while writing your code.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
@@ -196,9 +196,10 @@ Brain storm about it. Later, you will save much more time while writing your cod
 
 ❌ Don't code things “*just in case*” you might need it for later.
 
-✅ You need to solve today's problem today and tomorrow's problem tomorrow.
-
 Don't spend time and resources on what you might not need.
+
+
+✅ You need to solve today's problem today and tomorrow's problem tomorrow.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
