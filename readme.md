@@ -21,6 +21,7 @@ Time is so valuable and important that I only want to share what you need to kno
 - [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
 - [Boat anchor - Unused code](#boat-anchor---unused-code)
 - [Minimalist code](#minimalist-code)
+- [You Aren't Going To Need This... (a.k.a. YAGNI)](#you-arent-gonna-need-it-yagni)
 - [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
 - [Tests come first. Never Last](#-tests-come-first-never-last)
 - [Import only what you need](#import-only-what-you-need)
@@ -174,9 +175,11 @@ Add a BitBucket/GitHub pipeline or a git hook on your project level for rejectin
 
 Coding in a minimalist way is the best pattern you can follow.
 
-Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code. There are so many ways to achieve a solution. And there is always a shorten and cleaner version which should always be the chosen one.
+Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code.
 
-Think twice before starting writing your code. Ask yourself: “what would be the simplest and elegant solution I can write”, so that the written code can be well-maintained overtime and very easily understood by other developers who don't have the context in mind.
+There are so many ways to achieve a solution. And there is always a shorten and cleaner version which should always be the chosen one.
+
+Think twice before starting writing your code. Ask yourself “*what would be the simplest and elegant solution I can write*”, so that the written code can be well-maintained overtime and very easily understood by other developers who don't have the context (reason of the change) in mind.
 
 Brain storm about it. Later, you will save much more time while writing your code.
 
