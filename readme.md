@@ -709,6 +709,8 @@ switch (action) {
 }
 ```
 
+Here, we keep the `default` clause, but we take benefit of it by throwing an exception.
+
 
 **[⬆️ Back to top](#-table-of-contents)**
 
