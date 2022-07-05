@@ -686,8 +686,8 @@ switch (action) {
     return message;
     break; // ❌ This is redundant as we already exit the `switch` with `return`
 
-  default:
-    break; // ❌ This is redundant
+  default: // ❌ This clause is redundant
+    break;
 }
 ```
 
