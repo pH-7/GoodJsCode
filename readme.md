@@ -175,7 +175,7 @@ Add a BitBucket/GitHub pipeline or a git hook on your project level for rejectin
 
 ## Minimalist code
 
-Coding in a minimalist way is the best pattern you can follow.
+Coding in a minimalist way is the best pattern you can follow! Simplicity over complexity always wins! 🏆
 
 Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code.
 
