@@ -410,6 +410,7 @@ function removeSpecialCharactersUrl(url) {
 }
 ```
 
+Each word of a function name should be capitalized except the first letter of the function. This is know as **lowerCamel** case, like ‘myGreatFunction‘
 
 **[⬆️ Back to top](#-table-of-contents)**
 
@@ -453,7 +454,7 @@ class Sanitizer { // <- Name is already more explicit
 ```
 
 In this case, the class name clearly says what it does. It’s the opposite of a black box. By saying what it does, it should also follow the single responsibility principle of achieving only one single purpose.
-Class names should be a (singular) noun that starts with a capital letter. The class can also contain more than one noun, if so, each word has to be capitalized (this is called **UpperCamel** case).
+Class names should be a (singular) noun that starts with a capital letter. The class can also contain more than one noun. If so, each word has to be capitalized (this is called **UpperCamel** case).
 
 
 **[⬆️ Back to top](#-table-of-contents)**
