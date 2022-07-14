@@ -410,7 +410,7 @@ function removeSpecialCharactersUrl(url) {
 }
 ```
 
-Each word of a function name should be capitalized except the first letter of the function. This is know as **lowerCamel** case, like `isFunctionNameValid()`.
+Each word of a function name should be capitalized except the first letter of the function. This is know as **lowerCamel** case, like `isNameValid()`.
 
 **[⬆️ Back to top](#-table-of-contents)**
 
