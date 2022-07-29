@@ -147,12 +147,12 @@ if (isValidName('Peter')) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Boat anchor - Unused code
+## Boat anchor (AKA [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking))
 
 Never keep some unused code or commented code, _just in case_ for history reason.
 Sadly, it’s still very common to find commented code in PRs.
 
-Nowadays, everybody uses a version control system like git, so there is always a history where you can go backwards.
+Nowadays, everybody uses a version control system like git, so there is always a history where you can look and go backwards if needed.
 
 ### ❌ Downside of keeping unused code
 
@@ -163,7 +163,7 @@ Nowadays, everybody uses a version control system like git, so there is always a
 
 ### ✅ Action to take
 
-Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused/commented code.
+Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused and commented code.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
