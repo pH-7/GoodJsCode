@@ -1222,7 +1222,8 @@ For instance:
 import { cloneDeep as _cloneDeep } from 'lodash';
 
 function changeUser(user) {
-  const copyUser = _cloneDeep(user); // copyUser = { …user };
+  // copyUser = { …user };
+  const copyUser = _cloneDeep(user);
   copyUser.name = 'Edward Ford';
   
   return Object.freeze(copyUser);
