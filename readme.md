@@ -647,16 +647,16 @@ When you stub an object in your tests (with Sinon for instance), it’s a good a
 ### ❌ Everything is stubbed
 
 ```javascript
-sinon.stub(classToBeStubbed);
+sinon.stub(myObject);
 ```
 
 ### ✅ Only the function you need is stubbed
 
 ```javascript
-sinon.stub(classToBeStubbed, 'myNeededFunction');
+sinon.stub(myObject, 'myNeededFunction');
 ```
 
-Here, we stub only the individual method we need.
+Here, we only stub out the individual function we need.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
