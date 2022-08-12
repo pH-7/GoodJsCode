@@ -959,7 +959,7 @@ const isProfileNameAllowed = (id) => {
 }
 ```
 
-Promises make your code harder to read.
+Promises make your code harder to read and tends to increase code [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity).
 
 ### ✅ With `async`/`await`
 
