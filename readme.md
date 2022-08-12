@@ -586,7 +586,7 @@ console.log(favoriteFruits);
 
 ### ✅ `console.table(array)`
 
-Using `console.table` saves you time as the result is shown in a clear table, improving the readability of the log when debugging an array or object.
+Using `console.table` saves you time as the result is shown in a clear table, improving readability of the log when debugging an array or object.
 
 Mozilla gives us a clear example to see how `console.table` can help you.
 
