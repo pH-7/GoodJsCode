@@ -366,7 +366,7 @@ for (let i = 1; i <= nbPages; i++) {
 }
 ```
 
-Giving `i` for the name of the increment variable is a terrible idea. Although, this is the standard for showing examples with the `for` loop, you should never do the same with your production application (sadly, plenty of developers just repeat what they've learned and we can’t blame them, but it's now time to change!).
+Giving `i` for the name of the increment variable is a terrible idea. Although, this is the standard for showing examples with the `for` loop, you should never do the same with your production application (sadly, plenty of developers just repeat what they've learned. Of course, we can’t blame them, but it's now time to change!).
 
 Every time you declare a new variable, look at the best and short words you can use to describe what it stores.
 
