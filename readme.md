@@ -4,9 +4,9 @@
 
 Hi! 👋 I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium), I'm currently living in the wonderful land called “Australia” (Adelaide).
 
-I've been coding for over 10 years and I decided to share my knowledge in terms of writing good code.
+I've been coding for over 10 years. Today, I decided to share my knowledge in terms of writing good code.
 
-On a daily basis, I review hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfix, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
+I review daily hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfixes, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
 
 With this book, you will have **the essential to know**, straight to the solution of coding better and cleaner. It's a practical book. You won't have superfluous information. Just the important things.
 
