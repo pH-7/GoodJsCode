@@ -18,7 +18,7 @@ Time is so valuable and important that I only want to share what you need to kno
 ## 📖 Table of Contents
 
 - [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
-- [Don’t comment what it does. Write what it does.](#dont-comment-what-it-does--write-what-it-does-)
+- [Don’t comment on what it does. Write what it does.](#dont-comment-on-what-it-does--write-what-it-does-)
 - [Boat anchor - Unused code](#boat-anchor---unused-code)
 - [Minimalist code](#minimalist-code)
 - [You Aren't Going To Need This... (a.k.a. YAGNI)](#you-arent-gonna-need-it-yagni)
@@ -104,7 +104,7 @@ function retrieveName(user) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Don’t comment what it does ❌ Write what it does ✅
+## Don’t comment on what it does ❌ Write what it does ✅
 
 It's crucial to name your functions and variables in simple and explicit words so that they say what they do (just by reading their names).
 
