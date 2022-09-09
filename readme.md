@@ -10,7 +10,7 @@ I review daily hundreds of lines of code. Brand new micro-services, new features
 
 With this book, you will get **the essential to know**, straight to the solution for coding better and cleaner. It's a practical book. You won't have superfluous information. Just the important things.
 
-Time is so valuable and important that I only want to share what you need to know, without unnecessary details, to be there only for making the book fatter.
+Time is so valuable and important (even more as a software engineer), so I will only share what you need to know, without unnecessary details, to be there only for making the book fatter.
 
 
 ---
