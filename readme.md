@@ -1,6 +1,6 @@
 # GoodJsCode™ Guidebook
 
-## Write clean and elegant code, by following the good practices 🚀
+## Write elegant code by following the good practices 🚀
 
 Hi! 👋 I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium), I'm currently living in the wonderful land called “Australia” (Adelaide).
 
@@ -8,7 +8,7 @@ I've been coding for over 10 years. Today, I decided to share my knowledge in te
 
 I review daily hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfixes, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
 
-With this book, you will get **the essential to know**, straight to the solution for coding better and cleaner. It's a practical book. You won't have superfluous information. Just the important things.
+With this book, you will get **the essential to know**, straight to the solution for writing better and cleaner code. It's a practical book. You won't have superfluous information. Just the important things.
 
 Time is so valuable and important (even more as a software engineer), so I will only share what you need to know, without unnecessary details, to be there only for making the book fatter.
 
