@@ -351,7 +351,7 @@ Here, the code doesn’t need to be commented. The boolean conditional function 
 
 ## Readable Name: Variables
 
-Mentioning clear good names and explicit names for your variables is critical to prevent confusions. Sometimes, we spend more time understanding what a variable is supposed to contain rather than achieving the given task.
+Mentioning clear good and explicit names for your variables is critical to prevent confusions. Sometimes, we spend more time understanding what a variable is supposed to contain rather than achieving the given task.
 
 ### ❌ Bad Variable Name
 
