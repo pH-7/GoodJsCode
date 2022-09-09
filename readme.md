@@ -321,7 +321,7 @@ if (active && feature === 'visitor' && setting.name.length > 0) {
 }
 ```
 
-The condition is hard to read, long, not reusable, and would very likely need to be documented as well.
+The condition isn't easy to read, long, not reusable, and would very likely need to be documented as well (making the whole coding experience unpleasant).
 
 ### ✅ Clear boolean function
 
