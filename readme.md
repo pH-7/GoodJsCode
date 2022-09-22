@@ -470,7 +470,7 @@ The guard clauses pattern is the way of leaving a function earlier by removing t
 
 Let’s see a snippet that doesn’t follow the guard clause pattern and a clean and readable example that does.
 
-The two samples represents the body of a function. Inside of the function we have the following 👇
+The two samples represent the body of a function. Inside of the function we have the following 👇
 
 ### ❌ The “not-readable” way
 
