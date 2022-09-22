@@ -1203,7 +1203,7 @@ if (props.address !== details.address) {
 
 Given a specific input (argument) to a function, a pure function <ins>always returns the same output</ins> as the pure function doesn't modify their input values.
 
-A pure function will never produces side-effects, meaning that it doesn't change any external states from another function. The pure function only depends on its input arguments and from the function's scope itself. With them, you can focus your attention in only one place, which makes a huge difference when reading and debugging your code.
+A pure function will never produce side effects, meaning that it doesn't change any external states from another function. The pure function only depends on its input arguments and on the function's scope itself. With them, you can focus your attention in only one place, which makes a huge difference when reading and debugging your code.
 
 ```javascript
 function addition(x, y) {
