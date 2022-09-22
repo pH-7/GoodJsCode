@@ -809,7 +809,7 @@ I always recommend to use only **US English** in your code. If you mix both Brit
 
 Most of the 3rd-party libraries are written in American English. As we use them in our codebase, we should prioritize US English as well in our code.
 I’ve seen codebase with words such as “_licence_” and “_license_”, “_colour_” and “_color_”, or “_organisation_” and “_organization_”.
-When you need to search for terms / refactor some code, and you find both spellings, it requires more time and consumes further brain space, which could have been avoided at the first place by following a consistent spelling.
+When you need to search for terms / refactor some code, and you find both spellings, it requires more time and consumes further brain space, which could have been avoided in the first place by following a consistent spellings.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
