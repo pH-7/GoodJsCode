@@ -805,7 +805,7 @@ const index = () => {
 
 ## 🇺🇸 American English spelling. The default choice when coding
 
-I always recommend to only use **US English** in your code. If you mix both British and American spellings, it will introduce some sort of confusions for later and might lead to interrogations for new developers joining the development of your software.
+I always recommend to use only **US English** in your code. If you mix both British and American spellings, it will introduce some sort of confusion for later and might lead to interrogations for new developers joining the development of your software.
 
 Most of the 3rd-party libraries are written in American English. As we use them in our codebase, we should prioritize US English as well in our code.
 I’ve seen codebase with words such as “_licence_” and “_license_”, “_colour_” and “_color_”, or “_organisation_” and “_organization_”.
