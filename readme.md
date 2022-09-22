@@ -1212,9 +1212,9 @@ function addition(x, y) {
 ```
 
 A trickier scenario can occur when you are passing an object.
-Imagine you are passing a “user” object to another function. If you modify the object “user” in the function, it will modify the actual user object because the object passed in as parameter is actually a reference of the object, which is the opposite of a distinct new cloned object. 
+Imagine you are passing a “user” object to another function. If you modify the object “user” in the function, it will modify the actual user object because the object passed in as a parameter is actually a reference of the object, which is the opposite of a distinct new cloned object. 
 
-To prevent this downside, you will have to deep clone the object first (you can use the Lodash *cloneDeep* function) and then `Object.freeze(copyUser)` when returning it. This will guarantee the “copyUser” to be immutable.
+To prevent this downside, you will have to deep-clone the object first (you can use the Lodash *cloneDeep* function) and then `Object.freeze(copyUser)` when returning it. This will guarantee the “copyUser” to be immutable.
 
 For instance:
 
