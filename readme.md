@@ -987,7 +987,7 @@ By using `async`/`await`, you avoid callback hell, which happens with promises c
 
 ## No magic numbers 🔢
 
-Avoid as much as you can to hardcode changeable values which could change over time, such as the amount of total posts to display, timeout delay, and other similar information.
+Avoid as much as you can to hardcode changeable values which could change over time, such as the number of total posts to display, timeout delay, and other similar information.
 
 ### ❌ Code containing magic numbers
 
