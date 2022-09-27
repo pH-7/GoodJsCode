@@ -807,9 +807,11 @@ const index = () => {
 
 I always recommend to use only **US English** in your code. If you mix both British and American spellings, it will introduce some sort of confusion for later and might lead to interrogations for new developers joining the development of your software.
 
-Most of the 3rd-party libraries are written in American English. As we use them in our codebase, we should prioritize US English as well in our code.
+Most of the 3rd-party libraries and JavaScript's reserved words are written in American English. As we use them in our codebase, we should prioritize US English as well in our code.
 I’ve seen codebase with words such as “_licence_” and “_license_”, “_colour_” and “_color_”, or “_organisation_” and “_organization_”.
 When you need to search for terms / refactor some code, and you find both spellings, it requires more time and consumes further brain space, which could have been avoided in the first place by following a consistent spellings.
+
+Finally, I’ve noticed that it's easier to mispell words with the British spelling like typing “colur” instead of “colour”.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
