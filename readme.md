@@ -1247,6 +1247,7 @@ function changeUser(user) {
 
 If you have to come back and change something later, you might need to comment in your code, but then you must use the TODO or FIXME prefix, so that your code will be highlighted in the majority of IDEs.
 
+Finally, I would also suggest you the VS Code extension [TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree).
 
 ✅ Example 👇
 
