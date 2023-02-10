@@ -50,7 +50,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Lock down your object](#lock-down-your-object-)
 - [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
-- [Avoid useing default export as much as you can](#avoid-useing-default-export-as-much-as-you-can)
+- [Avoid using default export as much as you can](#avoid-using-default-export-as-much-as-you-can)
 - [Always write pure functions](#always-write-pure-functions)
 - [Linters and Formatters](#linters-and-formatters)
 - [About the author](#about-the-author)
@@ -1203,7 +1203,7 @@ if (props.address !== details.address) {
 <!-- (c) Pierre-Henry Soria -->
 
 
-## Avoid using export defaultas much as you can
+## Avoid using export default as much as you can
 
 
 The main reason why you should avoid `export default` is that is makes refactoring very complex when you need to rename a class or a component name.
