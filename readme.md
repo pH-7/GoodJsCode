@@ -1210,7 +1210,8 @@ The main reason why you should avoid `export default` is that is makes refactori
 
 You will have to update every name of your exports as it will need to match with the actual name of your default export class/function/component.
 
-The other reason is that `export default` doesn't work well with your code editor lense
+When working on a larger-scale project, in addition of spending more time, you will also increase the chace of forgetting renaming an import (or simply having a typo).
+
 
 
 **[⬆️ Back to top](#-table-of-contents)**
