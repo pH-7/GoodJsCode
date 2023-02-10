@@ -1211,6 +1211,8 @@ You will have to update every name of your imports as it will need to match with
 
 When working on a large-scale project, in addition to spending more time, you will also increase the chance of forgetting renaming an import (or simply having a typo).
 
+Import each function/class seperately will helps your IDE's IntelliSense to picking up and auto-import correctly when refactoring, which won't be the case with a renamed `default export`.
+
 At the end of the day though, being consistent with your project and your team on what coding flavour and convention you choose is also to take into consideration.
 
 
