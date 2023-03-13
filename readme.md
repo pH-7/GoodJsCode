@@ -1226,6 +1226,11 @@ At the end of the day though, being consistent with your project and your team o
 
 ## Always write pure functions
 
+> If a tree falls in the woods, does it make a sound?
+> If a pure function mutates some local data in order to produce an immutable return value, is this okay?
+> Rich Hickey. Creator of the [Clojure](https://en.wikipedia.org/wiki/Clojure)
+
+
 Given a specific input (argument) to a function, a pure function <ins>always returns the same output</ins> as the pure function doesn't modify their input values.
 
 A pure function will never produce side effects, meaning that it doesn't change any external states from another function. The pure function only depends on its input arguments and on the function's scope itself. With them, you can focus your attention in only one place, which makes a huge difference when reading and debugging your code.
