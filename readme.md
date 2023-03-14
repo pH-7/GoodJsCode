@@ -2,7 +2,7 @@
 
 ## Write elegant code by following the good practices 🚀
 
-I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium), I'm currently living in the wonderful land called “Australia” (Adelaide).
+I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium) 🍫, I'm currently living in the wonderful land called “Australia” (Adelaide) 🦘
 
 I've been coding for over 10 years. Today, I decided to share my knowledge in terms of writing good code.
 
@@ -1228,6 +1228,7 @@ At the end of the day though, being consistent with your project and your team o
 
 > If a tree falls in the woods, does it make a sound?
 > If a pure function mutates some local data in order to produce an immutable return value, is this okay?
+>
 > Rich Hickey. Creator of the [Clojure](https://en.wikipedia.org/wiki/Clojure)
 
 
