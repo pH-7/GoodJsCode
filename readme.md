@@ -19,7 +19,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 
 - [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
 - [Don’t comment on what it does. Write what it does.](#dont-comment-on-what-it-does--write-what-it-does-)
-- [Boat anchor - Unused code](#boat-anchor---unused-code)
+- [Boat anchor - Unused code](#boat-anchor-aka-tree-shaking)
 - [Minimalist code](#minimalist-code)
 - [You Aren't Going To Need This... (a.k.a. YAGNI)](#you-arent-gonna-need-it-yagni)
 - [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
@@ -151,7 +151,8 @@ if (isValidName('Peter')) {
 ## Boat anchor (AKA [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking))
 
 Never keep some unused code or commented code, _just in case_ for history reason.
-Sadly, it’s still very common to find commented code in PRs.
+
+Sadly, it’s still very common to find commented code in pull requests.
 
 Nowadays, everybody uses a version control system like git, so there is always a history where you can look and go backwards if needed.
 
@@ -164,7 +165,7 @@ Nowadays, everybody uses a version control system like git, so there is always a
 
 ### ✅ Action to take
 
-Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused and commented code.
+Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused, dead and commented code.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
@@ -202,7 +203,7 @@ Brainstorm about it. Later, you will save much more time while writing your code
 Don't spend time and resources on what you might not need.
 
 
-✅ You need to solve today's problem today and tomorrow's problem tomorrow.
+✅ You need to solve today's problem today, and tomorrow's problem for tomorrow.
 
 
 
@@ -250,7 +251,7 @@ Icing on the cake, you can make public some of your packages by open source them
 
 Too many developers underestimate their tests during the development stage.
 
-Don’t create a pull request without unit tests. The other developers reviewing your pull request are not only reviewing your changes but also your tests. 
+Don’t create a pull request without unit tests. The other developers reviewing your PR are not only reviewing your changes but also your tests. 
 
 Moreover, without unit tests, you have no idea if you introduce a new bug. Your new changes may not work as expected. 
 Lastly, there will be chances you won’t get time or rush up writing your tests if you push them for later.
