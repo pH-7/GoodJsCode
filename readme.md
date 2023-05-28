@@ -29,8 +29,8 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Readable Name: Variables](#readable-name-variables)
 - [Readable Name: Functions](#readable-name-functions)
 - [Readable Name: Classes](#readable-name-classes)
-- [Guard Clauses approach](#guard-clauses-approach)
 - [Fail Fast principle](#fail-fast-principle)
+- [Guard Clauses approach](#guard-clauses-approach)
 - [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
 - [Demeter Law](#demeter-law)
 - [Debugging efficiently](#debugging-efficiently)
@@ -467,13 +467,25 @@ Class names should be a (singular) noun that starts with a capital letter. The c
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
+## Fail Fast principle
+
+When applying the **fail-fast** principle in your code, you will `throw` an error or `trigger` an `exception` as soon as something goes wrong, rather than trying to proceed in an unstable state. In addition, when a function instruction [fails early](https://en.wikipedia.org/wiki/Fail-fast), you will let the other layers/tiers of your application's architecture know about an error that needs to be treated first before proceeding with the higher-level components of your software.
+<!-- TODO Add a "Good" and "Bad" code examples -->
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 ## Guard Clauses approach
 
-The guard clauses pattern is the way of leaving a function earlier by removing the redundant `else {}` blocks after a `return` statement.
+The guard clauses pattern, (*which is derived from the fail-fast principle seen earlier*), is the way of leaving a function earlier by removing the redundant `else {}` blocks after a `return` statement.
 
 Let’s see a snippet that doesn’t follow the guard clause pattern and a clean and readable example that does.
 
-The two samples represent the body of a function. Inside of the function we have the following 👇
+The two samples represent the body of a function. Inside the function, we have the following 👇
 
 ### ❌ The “not-readable” way
 
@@ -513,18 +525,6 @@ return false;
 
 On this example, we can notice how we could remove the complicated nested conditionals thanks to exiting the function as early as possible with the `return` statement.
 
-
-**[⬆️ Back to top](#-table-of-contents)**
-
----
-
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
-
-## Fail Fast principle
-
-When applying the **fail-fast** principle in your code, you will `throw` an error or `trigger` an `exception` as soon as something goes wrong, rather than trying to proceed in an unstable state. In addition, when a function instruction [fails early](https://en.wikipedia.org/wiki/Fail-fast), you will let the other layers/tiers of your application's architecture know about an error that needs to be treated first before proceeding with the higher-level components of your software.
-<!-- TODO Add a "Good" and "Bad" code examples -->
 
 **[⬆️ Back to top](#-table-of-contents)**
 
