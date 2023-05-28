@@ -19,7 +19,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 
 - [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
 - [Don’t comment on what it does. Write what it does.](#dont-comment-on-what-it-does--write-what-it-does-)
-- [Boat anchor - Unused code](#boat-anchor-aka-tree-shaking)
+- [Boat anchor - Unused code](#boat-anchor-aka-tree-shaking-)
 - [Minimalist code](#minimalist-code)
 - [You Aren't Going To Need This... (a.k.a. YAGNI)](#you-arent-gonna-need-it-yagni)
 - [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
