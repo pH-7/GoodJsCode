@@ -30,6 +30,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Readable Name: Functions](#readable-name-functions)
 - [Readable Name: Classes](#readable-name-classes)
 - [Guard Clauses approach](#guard-clauses-approach)
+- [Fail Fast principle](#fail-fast-principle)
 - [.gitignore and .gitattributes to every project](#gitignore-and-gitattributes-to-every-project)
 - [Demeter Law](#demeter-law)
 - [Debugging efficiently](#debugging-efficiently)
@@ -512,6 +513,18 @@ return false;
 
 On this example, we can notice how we could remove the complicated nested conditionals thanks to exiting the function as early as possible with the `return` statement.
 
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
+## Fail Fast principle
+
+When applying the **fail-fast** principle in your code, you will `throw` an error or `trigger` an `exception` as soon as something goes wrong, rather than trying to proceed in an unstable state. In addition, when a function instruction [fails early](https://en.wikipedia.org/wiki/Fail-fast), you will let the other layers/tiers of your application's architecture know about an error that needs to be treated first before proceeding with the higher-level components of your software.
+<!-- TODO Add a "Good" and "Bad" code examples -->
 
 **[⬆️ Back to top](#-table-of-contents)**
 
