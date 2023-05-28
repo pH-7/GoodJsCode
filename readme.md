@@ -481,7 +481,7 @@ When applying the **fail-fast** principle in your code, you will `throw` an erro
 
 ## Guard Clauses approach
 
-The guard clauses pattern, (*which is derived from the fail-fast principle seen earlier*), is the way of leaving a function earlier by removing the redundant `else {}` blocks after a `return` statement.
+Derived from the fail-fast principle seen earlier, the guard clauses technique is the way of leaving a function earlier by removing the redundant `else {}` blocks after a `return` statement.
 
 Let’s see a snippet that doesn’t follow the guard clause pattern and a clean and readable example that does.
 
