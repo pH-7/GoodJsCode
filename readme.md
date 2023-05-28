@@ -149,7 +149,7 @@ if (isValidName('Peter')) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Boat anchor (AKA [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking))
+## Boat anchor (AKA [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) 🌳)
 
 Never keep some unused code or commented code, _just in case_ for history reason.
 
