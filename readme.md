@@ -2,7 +2,7 @@
 
 ## Write elegant code by following the good practices 🚀
 
-I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels, (Belgium) 🍫, I'm currently living in the wonderful land called “Australia” (Adelaide) 🦘
+I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels (Belgium) 🍫, I'm currently living in the wonderful land called “Australia” (Adelaide) 🦘
 
 I've been coding for over 10 years. Today, I decided to share my knowledge in terms of writing professional, clean and scalable code 🤩
 
