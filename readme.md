@@ -117,7 +117,7 @@ Your code has to be your comments. At the end of the day, as a developer, we ten
 Icing on the cake, it’s always more rewarding and requires less time to write self-descriptive code rather than commenting it. 
 
 
-### ❌ Bad practice
+### ❌ Bad practices
 
 ```javascript
 let validName = false;
