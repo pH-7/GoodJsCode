@@ -1340,7 +1340,7 @@ Finally, you can very easily set up a GitHub workflow action for your project.
 
 ## Conclusion
 
-Writing clean and readable code that scales is crucial for tomorrow's development and maintenance. When we write code for a job, it's not our code, it's everybody's else code. That fact of writing code that doesn't require brain power will prevent misunderstandings or errors that could have been easily avoided by making the code easy to understand where it tells right away what it does by reading it.
+Writing clean and readable code that scales is crucial for tomorrow's development and maintenance. When we write code for a job, it's not our code, it's everybody's else code. That fact of writing code that doesn't require brain power will prevent misunderstandings or errors that could have been easily avoided by making the code easy to understand where it tells right away what it does.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
