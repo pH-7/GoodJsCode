@@ -127,9 +127,9 @@ if (name.length >= 3 && name.length <= 20) {
   // Now we know that the name is valid
   // …
 }
+```
 
-// ...
-
+```javascript
 const sr = 8.79; // Saving Rate
 ```
 
@@ -146,9 +146,9 @@ const isValidName = (name) => {
 if (isValidName('Peter')) {
   // Valid ✅
 }
+```
 
-// ...
-
+```javascript
 const savingRate = 8.79;
 ```
 
