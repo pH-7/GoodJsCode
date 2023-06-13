@@ -1325,6 +1325,18 @@ Finally, you can very easily set up a GitHub workflow action for your project.
 <!-- (c) Pierre-Henry Soria -->
 
 
+## Conclusion
+
+Writing clean and readable code that scales is essential nowadays. When we write code for a work project, it's not our code, it's everybody's else code. That fact of writing code that doesn't require brain power will prevent misunderstandings or errors that could have been easily avoided by making the code easy to understand where it tells right away what it does by reading it.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 ## About the Author
 
 **[Pierre-Henry Soria](https://ph7.me)**. A super passionate and enthusiastic software engineer, and a true cheese & chocolate lover 💫 
