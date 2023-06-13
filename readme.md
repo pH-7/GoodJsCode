@@ -59,7 +59,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 
 ## The “One Thing” principle 1️⃣
 
-When writing a function, remind yourself that it should ideally do only one (simple) thing. Think about what you have already learned concerning the comments. The code should say everything. No comments should be needed. Splitting the code into small readable functions and reusable portions of code will drastically make your code readable and eliminate the need to copy/paste the same piece of code just because it hasn’t been properly moved into reusable functions/classes.
+When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning the comments. The code should say everything. No comments should be needed. Splitting the code into small readable functions and reusable portions of code will drastically make your code readable and eliminate the need to copy/paste the same piece of code just because it hasn’t been properly moved into reusable functions/classes.
 
 ### ❌ Non-readable function
 
@@ -110,9 +110,12 @@ function retrieveName(user) {
 
 It's crucial to name your functions and variables in simple and explicit words so that they say what they do (just by reading their names).
 
-If the code requires too many comments to be understood, the code needs to be refactored. The code has to be understood by reading it. Not by reading the comments. And the same applies when you write tests.
+If the code requires too many comments to be understood, it means the code needs to be refactored. The code has to be understood by reading it. Not by reading the comments. And the same applies when you write tests. Having to justify what the code does is usually a bad sign of a code smell.
 
-Your code has to be your comments. At the end of the day, as developers, we tend to be lazy and we don’t read the comment (carefully). However, the code, we always do.
+Your code has to be your comments. At the end of the day, as a developer, we tend to be lazy and we don't read the comment (carefully). However, the code, we always do.
+
+Icing on the cake, it’s always more rewarding and requires less time to write self-descriptive code rather than commenting it. 
+
 
 ### ❌ Bad practice
 
