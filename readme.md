@@ -124,9 +124,13 @@ let validName = false;
 // We check if name is valid by checking its length
 if (name.length >= 3 && name.length <= 20) {
   validName = true;
-  // Now we know the name is valid
+  // Now we know that the name is valid
   // …
 }
+
+// ...
+
+const sr = 8.79; // Saving Rate
 ```
 
 ### ✅ Good example
@@ -142,7 +146,13 @@ const isValidName = (name) => {
 if (isValidName('Peter')) {
   // Valid ✅
 }
+
+// ...
+
+const savingRate = 8.79;
 ```
+
+Remember, your job is to write efficient and meaningful code, not endless comments.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
