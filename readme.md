@@ -1124,7 +1124,7 @@ const end = new Date();
 const executionTime = start.getTime() - end.getTime();
 ```
 
-### ✅ With ` performance.now()
+### ✅ With `performance.now()`
 
 ```javascript
 const start = performance.now();
