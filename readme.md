@@ -1,6 +1,6 @@
-# The GoodJsCode™ Guidebook
+# The Brilliant JavaScript Coder's Guidebook (GoodJsCode™)
 
-## Write elegant code by following the good practices 🚀
+## Write elegant code by following good practices 🚀
 
 I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate software engineer. Originally from Brussels (Belgium) 🍫, I'm currently living in the wonderful land called “Australia” (Adelaide) 🦘
 
