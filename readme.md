@@ -482,7 +482,7 @@ Class names should be a (singular) noun that starts with a capital letter. The c
 
 ## Fail Fast principle
 
-When applying the **fail-fast** principle in your code, you will `throw` an error or `trigger` an `exception` as soon as something goes wrong, rather than trying to proceed in an unstable state. In addition, when a function instruction [fails early](https://en.wikipedia.org/wiki/Fail-fast), you will let the other layers/tiers of your application's architecture know about an error that needs to be treated first before proceeding with the higher-level components of your software.
+When applying the **fail-fast** principle in your code, you will `throw` an error or `trigger` an `exception` as soon as something goes wrong rather than trying to proceed in an unstable state. In addition, when a function instruction [fails early](https://en.wikipedia.org/wiki/Fail-fast), you will let the other layers/tiers of your application's architecture know about an error that needs to be treated first before proceeding to the higher-level components of your software.
 <!-- TODO Add a "Good" and "Bad" code examples -->
 
 **[⬆️ Back to top](#-table-of-contents)**
