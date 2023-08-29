@@ -705,6 +705,7 @@ For instance, in a switch-statement, having a `default` clause that isn’t used
 ```javascript
 const PRINT_ACTION = 'print';
 const RETURN_ACTION = 'return';
+const EVENT_ACTION = 'event';
 // …
 switch (action) {
   case PRINT_ACTION:
@@ -713,9 +714,13 @@ switch (action) {
 
   case RETURN_ACTION:
     return message;
-    break; // ❌ This is redundant as we already exit the `switch` with `return`
+    break; // ❌ Redundant as we already exit the `switch` with `return`
 
-  default: // ❌ This clause is redundant
+  case EVENT_ACTION:
+    throw new NotImplemented("Not implemented yet");
+    break; // ❌ Redundant as the code won't be reached after error is thrown
+
+  default: // ❌ This clause is redundant as no default instruction was used
     break;
 }
 ```
