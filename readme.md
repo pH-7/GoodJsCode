@@ -6,7 +6,7 @@ I'm [Pierre-Henry Soria](https://ph7.me). An enthusiastic and passionate softwar
 
 I've been coding for over 10 years. Today, I decided to share my knowledge in terms of writing professional, clean and scalable code 🤩
 
-I review daily hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfixes, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
+Every day, I review hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfixes, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
 
 With this book, you will get **the essential to know**, straight to the solution for writing better and cleaner code. It's a practical book. You won't have superfluous information. Just the important things ✅
 
