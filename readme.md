@@ -152,7 +152,7 @@ if (isValidName('Peter')) {
 const savingRate = 8.79;
 ```
 
-Remember, your job is to write efficient and meaningful code, not endless comments.
+Remember, **your job is to write efficient and meaningful code**, **not endless comments**.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
