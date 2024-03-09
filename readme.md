@@ -325,7 +325,7 @@ if (_isEmpty(something)) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Refactoring boolean conditions into clear functions
+## Refactoring conditions into clear functions
 
 ### ❌ Non-readable condition
 
