@@ -325,7 +325,7 @@ if (_isEmpty(something)) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Conditions into clear function names
+## Refactoring boolean conditions into clear functions
 
 ### ❌ Non-readable condition
 
@@ -353,7 +353,7 @@ if (canQrCode(qrCodeData, 'visitor')) {
 }
 ```
 
-Here, the code doesn’t need to be commented. The boolean conditional function says exactly what it does, producing a readable and clean code 🚀
+Here, the code doesn’t need to be commented. The boolean conditional function name says exactly what it does, producing a readable and clean code 🚀
 
 🍰 Cherry on the cake, the code is scalable. Indeed, the function `canQrCode` can be placed in a service or helper, increasing the reusability and decreasing the chance of duplicating code.
 
