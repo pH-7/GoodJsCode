@@ -421,12 +421,14 @@ function cleaning(url) {
 ### ✅ Explicit descriptive name
 
 ```javascript
-function removeSpecialCharactersUrl(url) {
+function removeSpecialCharactersInUrl(url) {
+  const specialCharacters = /[^A-Za-z0-9]/g;
   // …
+  return url.replace(specialCharacters, '');
 }
 ```
 
-Each word of a function name should be capitalized except the first letter of the function. This is know as **lowerCamel** case, like `isNameValid()`.
+Also, each word of a function name should be capitalised except the first letter of the function. This is known as **lowerCamelCase**, like `isNameValid()`.
 
 **[⬆️ Back to top](#-table-of-contents)**
 
