@@ -414,7 +414,9 @@ for (let currentPage = 1; currentPage <= totalItems; currentPage++) {
 
 ```javascript
 function cleaning(url) {
+  const specialCharacters = /[^A-Za-z0-9]/g;
   // …
+  return url.replace(specialCharacters, '');
 }
 ```
 
