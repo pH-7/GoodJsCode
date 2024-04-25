@@ -1241,8 +1241,7 @@ if (props.address !== details.address) {
 
 ## Avoid using export default as much as you can
 
-
-The main reason why you should avoid export default is that it makes refactoring very complex when you need to rename a class or a component name.
+The main reason why you should avoid `export default` is that it makes refactoring very complex when you need to rename a class or a component name.
 You will have to update every name of your imports as it will need to match with the actual name of your default export class/function/component.
 When working on a large-scale project, in addition to spending more time, you will also increase the chance of forgetting to rename an import (or simply having a typo).
 Importing each function/class separately will help your IDE’s IntelliSense in picking up and auto-importing correctly when refactoring, which won’t be the case with a renamed default.
