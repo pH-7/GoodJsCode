@@ -858,7 +858,7 @@ Finally, I’ve noticed that it's easier to mispell words with the British spell
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Destructing array elements - Make it readable
+## Destructing array elements. Make it readable
 
 When you need to destruct an array with JavaScript (ES6 and newer), and you want to pickup only the second or third array, there is a much cleaner way than using the `,` to skip the previous array keys.
 
