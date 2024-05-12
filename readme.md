@@ -53,6 +53,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
 - [Avoid using `default export` as much as you can](#avoid-using-default-export-as-much-as-you-can)
 - [Always write pure functions](#always-write-pure-functions)
+- [Don't over complicate things](#dont-over-complicate-things)
 - [Linters and Formatters](#linters-and-formatters)
 - [About the author](#about-the-author)
 
