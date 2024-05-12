@@ -1304,7 +1304,7 @@ function changeUser(user) {
 }
 ```
 
-✅ By writing pure functions, you will make the code easier to read and understand. You only need to focus your attention on the function itself without having to look at the surrounding environments, states, and properties outside the function's scope, preventing you to spend hours debugging.
+✅ By writing pure functions, you will make the code easier to read and understand. You only need to focus your attention on the function itself without having to look at the surrounding environments, states, and properties outside the function's scope, preventing you from spending hours debugging.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
@@ -1352,7 +1352,7 @@ const generateText = ({
 };
 ```
 
-Instead of keeping the simpler and scalable original function's signature, `const generateText = (options?) => { /* ... */ }`, we can handle the options inside the function body:
+Instead, keeping the first function's signature, `const generateText = (options = {}) => { /* ... */ }`, where it handles the options inside the function body, is a wiser choice as it provides more flexibility and scalability when we need to add additional output formats:
 
 ```javascript
 const generateText = (options = {}) => {
