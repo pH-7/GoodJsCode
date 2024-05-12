@@ -53,7 +53,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
 - [Avoid using `default export` as much as you can](#avoid-using-default-export-as-much-as-you-can)
 - [Always write pure functions](#always-write-pure-functions)
-- [Don't over complicate things](#dont-over-complicate-things)
+- [Don't overcomplicate things](#dont-over-complicate-things)
 - [Linters and Formatters](#linters-and-formatters)
 - [About the author](#about-the-author)
 
@@ -1315,7 +1315,7 @@ function changeUser(user) {
 <!-- (c) Pierre-Henry Soria -->
 
 
-## Don't over complicate things
+## Don't overcomplicate things
 
 Sometimes, it's tempting to make our code prettier for no reason. Keep it simple unless it affects the readability or scalability of our code.
 
