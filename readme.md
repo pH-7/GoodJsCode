@@ -213,12 +213,12 @@ Brainstorm about it. Later, you will save much more time while writing your code
 
 ## You Aren't Gonna Need It (YAGNI)
 
-❌ Don't code things “*just in case*” you might need it for later.
+❌ **Don't code things “*just in case*” you might need it for later**.
 
 Don't spend time and resources on what you might not need.
 
 
-✅ You need to solve today's problem today, and tomorrow's problem for tomorrow.
+✅ **You need to solve today's problem today, and tomorrow's problem for tomorrow**.
 
 
 
@@ -1376,7 +1376,6 @@ const generateText = (options = {}) => {
 
   // ...
 };
-}
 ```
 
 
