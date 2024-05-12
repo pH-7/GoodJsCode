@@ -344,7 +344,7 @@ The condition isn't easy to read, long, not reusable, and would very likely need
 ```javascript
 const canQrCode = ({ active, feature, setting }, featureName) => {
   return active && feature === 'visitor' && setting.name.length > 0;
-};
+}
 
 // …
 
@@ -1314,6 +1314,78 @@ function changeUser(user) {
 <!-- (c) Pierre-Henry Soria -->
 
 
+## Don't over complicate things
+
+Sometimes, it's tempting to make our code prettier for no reason. Keep it simple unless it affects the readability or scalability of our code.
+
+For instance, let's imagine a function that generates lorem ipsum text for us. Currently, we have one option to be formatted as markdown.
+
+```javascript
+const generateText = (options = {}) => {
+  // ...
+};
+
+// Generate some lorem ipsum sentences
+generateText();
+```
+
+We could be tempted to destructure the `options` variable like below:
+
+```javascript
+const generateText = ({ markdownFormat = false } = {}) => {
+  // ...
+};
+```
+
+However, you can already notice that our function's signature has gotten bigger. Similar to the above function, to keep the function's arguments optional in JavaScript, we need to assign our destructured object with a default empty object as `= {}` to ensure that the destructuring doesn't fail if no argument is passed to the function. Then, we need to initialize the `markdownFormat` property with a default value (e.g. `false`). All of this noise adds complexity to our code. Later on, let's imagine we need to support other output formats such as AsciiDoc and reStructuredText.
+
+Our function becomes the following:
+
+```javascript
+const generateText = ({
+  markdownFormat = false,
+  reStructuredTextFormat = false,
+  asciiDocFormat = false
+} = {}) => {
+  // ...
+};
+```
+
+Instead of keeping the simpler and scalable original function's signature, `const generateText = (options?) => { /* ... */ }`, we can handle the options inside the function body:
+
+```javascript
+const generateText = (options = {}) => {
+  if (options.markdownFormat) {
+    // ...
+    const output = loremIpsum.toMarkdown();
+    return output;
+  }
+
+  if (options.reStructuredTextFormat) {
+    // ...
+    const output = loremIpsum.toReST();
+    return output;
+  }
+
+  if (options.asciiDocFormat) {
+    // ...
+    const output = loremIpsum.toAsciiDoc();
+    return output;
+  }
+
+  // ...
+};
+}
+```
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 ## Use the TODO and FIXME prefix in your comments (when really need to comment)
 
 If you have to come back and change something later, you might need to comment in your code, but then you must use the TODO or FIXME prefix, so that your code will be highlighted in the majority of IDEs.
@@ -1340,7 +1412,7 @@ function somethingMeaningful() {}
 
 Indentation is also very important. Having consistent code that follows the same coding conventions across your products will help to ship clean and readable code.
 
-For doing so, it’s crucial to use ESLint and Prettier on your code editor (e.g., VS Code) as well as set up some git hooks (on pre-commit or pre-push hook) which will run ESLint as a pre-check for when you git commit/push your code.
+For doing so, it’s crucial to use ESLint and Prettier on your code editor (e.g. VS Code) as well as set up some git hooks (on pre-commit or pre-push hook) which will run ESLint as a pre-check for when you git commit/push your code.
 
 Finally, you can very easily set up a GitHub workflow action for your project.
 
