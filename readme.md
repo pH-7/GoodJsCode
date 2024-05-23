@@ -212,7 +212,7 @@ Brainstorm about it. Later, you will save much more time while writing your code
 
 ## You Aren't Gonna Need It (YAGNI)
 
-❌ **Don't code things "just in case" you might need it later**.
+❌ **Don't code things "_just in case_" you might need it later**.
 
 Don't spend time and resources on what you might not need.
 
