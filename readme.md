@@ -182,6 +182,7 @@ Nowadays, everybody uses a version control system like git, so there is always a
 
 Add a Bitbucket/GitHub pipeline or a git hook on your project level for rejecting any unused, dead, and commented code.
 
+
 **[⬆️ Back to top](#-table-of-contents)**
 
 ---
@@ -200,6 +201,9 @@ There are so many ways to achieve a solution. And there is always a shorter and 
 Think twice before starting to write your code. Ask yourself "*what would be the simplest and most elegant solution I can write*", so that the written code can be well-maintained over time and very easily understood by other developers who don't have the context/acceptance criteria in mind.
 
 Brainstorm about it. Later, you will save much more time while writing your code.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
 
 ---
 
