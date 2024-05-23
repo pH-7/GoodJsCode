@@ -165,23 +165,22 @@ Remember, **your job is to write efficient and meaningful code**, **not endless 
 
 ## Boat anchor (AKA [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) 🌳)
 
-Never keep some unused code or commented code, _just in case_ for history reason.
+Never keep unused code or commented code, “_just in case_” for history reasons.
 
-Sadly, it’s still very common to find commented code in pull requests.
+Sadly, it's still very common to find commented code in pull requests.
 
-Nowadays, everybody uses a version control system like git, so there is always a history where you can look and go backwards if needed.
+Nowadays, everybody uses a version control system like git, so there is always a history where you can look and go backward if needed.
 
-### ❌ Downside of keeping unused code
+### ❌ Downsides of keeping unused code
 
-1. We think we will come back removing it when it’s time. Very likely, we will et busy on something else and we will forget removing it.
+1. We think we will come back to removing it when it's time. Very likely, we will get busy with something else and we will forget to remove it.
 2. The unused code will add more complexity for a later refactoring.
 3. Even if unused, it will still show up when searching in our codebase (which adds more complexity too).
-4. For new developers joining the project, they don’t know if they can remove it or not.
+4. For new developers joining the project, they don't know if they can remove it or not.
 
 ### ✅ Action to take
 
-Add a BitBucket/GitHub pipeline or a git hook on your project level for rejecting any unused, dead and commented code.
-
+Add a Bitbucket/GitHub pipeline or a git hook on your project level for rejecting any unused, dead, and commented code.
 
 **[⬆️ Back to top](#-table-of-contents)**
 
@@ -213,12 +212,12 @@ Brainstorm about it. Later, you will save much more time while writing your code
 
 ## You Aren't Gonna Need It (YAGNI)
 
-❌ **Don't code things “*just in case*” you might need it for later**.
+❌ **Don't code things "just in case" you might need it later**.
 
 Don't spend time and resources on what you might not need.
 
 
-✅ **You need to solve today's problem today, and tomorrow's problem for tomorrow**.
+✅ **You need to solve today's problem today, and tomorrow's problem tomorrow**.
 
 
 
