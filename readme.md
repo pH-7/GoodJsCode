@@ -195,14 +195,11 @@ Coding in a minimalist way is the best pattern you can follow! Simplicity over c
 
 Each time you need to create a new feature or add something to a project, see how you can reduce the amount of code.
 
-There are so many ways to achieve a solution. And there is always a shorten and cleaner version which should always be the chosen one.
+There are so many ways to achieve a solution. And there is always a shorter and cleaner version which should always be the chosen one.
 
-Think twice before starting writing your code. Ask yourself “*what would be the simplest and most elegant solution I can write*”, so that the written code can be well-maintained over time and very easily understood by other developers who don't have the context/acceptance criteria in mind.
+Think twice before starting to write your code. Ask yourself "*what would be the simplest and most elegant solution I can write*", so that the written code can be well-maintained over time and very easily understood by other developers who don't have the context/acceptance criteria in mind.
 
 Brainstorm about it. Later, you will save much more time while writing your code.
-
-
-**[⬆️ Back to top](#-table-of-contents)**
 
 ---
 
