@@ -17,8 +17,8 @@ Time is so valuable and important (even more as a software engineer), so I will 
 
 ## 📖 Table of Contents
 
-- [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
 - [Don’t comment on what it does. Write what it does.](#dont-comment-on-what-it-does--write-what-it-does-)
+- [The “One Thing” principle](#the-one-thing-principle-1%EF%B8%8F⃣)
 - [Boat anchor - Unused code](#boat-anchor-aka-tree-shaking-)
 - [Minimalist code](#minimalist-code)
 - [You Aren't Going To Need This... (a.k.a. YAGNI)](#you-arent-gonna-need-it-yagni)
@@ -57,55 +57,6 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Linters and Formatters](#linters-and-formatters)
 - [About the author](#about-the-author)
 
-
-## The “One Thing” principle 1️⃣
-
-When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning the comments. The code should say everything. No comments should be needed. Splitting the code into small readable functions and reusable portions of code will drastically make your code readable and eliminate the need to copy/paste the same piece of code just because it hasn’t been properly moved into reusable functions/classes.
-
-### ❌ Non-readable function
-
-```javascript
-function retrieveName(user) {
-  if (user.name && user.name !=== 'admin' && user.name.length >= 5) {
-    return user.name;
-  }
-  // ...
-}
-```
-
-### ✅ One Thing. Neat & Clean
-
-```javascript
-const isRegularUser = (name) => {
-  return name !=== config.ADMIN_USERNAME;
-}
-
-const isValidNameLength = (name, minimumLength = 5) => {
-  return name.length >= minimumLength;
-}
-
-const isEligibleName(name) {
-  return isRegularUser(name) && isValidNameLength(name);
-}
-
-// …
-
-function retrieveName(user) {
-  const name = user?.name;
-
-  if (isEligibleName(name)) {
-    return user.name;
-  }
-}
-```
-
-
-**[⬆️ Back to top](#-table-of-contents)**
-
----
-
-<!-- New Section (page) -->
-<!-- (c) Pierre-Henry Soria -->
 
 ## Don’t comment on what it does ❌ Write what it does ✅
 
@@ -163,6 +114,57 @@ Remember, **your job is to write efficient and meaningful code**, **not endless 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
+
+## The “One Thing” principle 1️⃣
+
+When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning comments. The code should say everything. No comments should be needed. Splitting the code into small, readable functions and reusable portions of code will drastically improve your code's readability and eliminate the need to copy/paste the same piece of code just because it hasn't been properly moved into reusable functions/classes. Just as individual Lego blocks can be combined to create larger structures, your functions should be small, focused units that can be composed together to accomplish more complex tasks.
+
+### ❌ Non-readable function
+
+```javascript
+function retrieveName(user) {
+  if (user.name && user.name !=== 'admin' && user.name.length >= 5) {
+    return user.name;
+  }
+  // ...
+}
+```
+
+### ✅ One Thing. Neat & Clean
+
+```javascript
+const isRegularUser = (name) => {
+  return name !=== config.ADMIN_USERNAME;
+}
+
+const isValidNameLength = (name, minimumLength = 5) => {
+  return name.length >= minimumLength;
+}
+
+const isEligibleName(name) {
+  return isRegularUser(name) && isValidNameLength(name);
+}
+
+// …
+
+function retrieveName(user) {
+  const name = user?.name;
+
+  if (isEligibleName(name)) {
+    return user.name;
+  }
+}
+```
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
+
 ## Boat anchor (AKA [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) 🌳)
 
 Never keep unused code or commented code, “_just in case_” for history reasons.
@@ -175,7 +177,7 @@ Nowadays, everybody uses a version control system like git, so there is always a
 
 1. We think we will come back to removing it when it's time. Very likely, we will get busy with something else and we will forget to remove it.
 2. The unused code will add more complexity for a later refactoring.
-3. Even if unused, it will still show up when searching in our codebase (which adds more complexity too).
+3. Even if unused, it will still show up when searching in the codebase (which adds more complexity too).
 4. For new developers joining the project, they don't know if they can remove it or not.
 
 ### ✅ Action to take
@@ -189,6 +191,7 @@ Add a Bitbucket/GitHub pipeline or a git hook on your project level for rejectin
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
+
 
 ## Minimalist code
 
@@ -252,13 +255,13 @@ Finally, if there is an improvement or bug fix needed, you will have to change o
 Icing on the cake, you can make public some of your packages by open source them on GitHub and other online code repositories to get some free marketing coverage and potentially some good users of your library and contributors as well 💪
 
 
-
 **[⬆️ Back to top](#-table-of-contents)**
 
 ---
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
+
 
 ## 🏁 Tests come first. Never last
 
