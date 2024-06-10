@@ -117,7 +117,9 @@ Remember, **your job is to write efficient and meaningful code**, **not endless 
 
 ## The “One Thing” principle 1️⃣
 
-When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning comments. The code should say everything. No comments should be needed. Splitting the code into small, readable functions and reusable portions of code will drastically improve your code's readability and eliminate the need to copy/paste the same piece of code just because it hasn't been properly moved into reusable functions/classes. Just as individual Lego blocks can be combined to create larger structures, your functions should be small, focused units that can be composed together to accomplish more complex tasks.
+When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning comments. The code should say everything. No comments should be needed. Splitting the code into small, readable functions and reusable portions of code will drastically improve your code's readability and eliminate the need to copy/paste the same piece of code just because it hasn't been properly moved into reusable functions/classes.
+
+Just as individual Lego blocks can be combined to create larger structures, your functions should be small, focused units that can be composed together to accomplish more complex tasks.
 
 ### ❌ Non-readable function
 
@@ -194,6 +196,10 @@ Add a Bitbucket/GitHub pipeline or a git hook on your project level for rejectin
 
 
 ## Minimalist code
+
+> Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
+>
+> — Bill Gates
 
 Coding in a minimalist way is the best pattern you can follow! Simplicity over complexity always wins! 🏆
 
