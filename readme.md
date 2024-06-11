@@ -197,7 +197,7 @@ Add a Bitbucket/GitHub pipeline or a git hook on your project level for rejectin
 
 ## Minimalist code
 
-> Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
+> *Measuring programming progress by lines of code is like measuring aircraft building progress by weight.*
 >
 > — Bill Gates
 
