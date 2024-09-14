@@ -514,7 +514,7 @@ Let’s see a snippet that doesn’t follow the guard clause pattern and a clean
 
 The two samples represent the body of a function. Inside the function, we have the following 👇
 
-### ❌ The “not-readable” way
+### ❌ Not-readable approach
 
 ```javascript
 if (payment.bonus) {
@@ -532,7 +532,7 @@ if (payment.bonus) {
 }
 ```
 
-### ✅ Clean readable way
+### ✅ Clean & readable approach
 
 ```javascript
 if (!payment.bonus) {
