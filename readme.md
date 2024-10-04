@@ -769,16 +769,17 @@ Here, we keep the `default` clause, but we take benefit of it by throwing an exc
 
 ## Ego is your enemy ✋
 
-Too often I see developers taking the comments on their pull requests personally because they see what they have done as their own creation. When you receive a change request, don’t feel judged! This is actually an improvement reward for yourself 🏆
+Too often I see developers taking the comments left on their pull requests personally because they see what they have done as their own creation. When you receive a change request, don't feel judged! This is actually an improvement reward for yourself 🏆
 
-If you want to be a good developer, leave your ego in your closet. Never bring it to work. This will just slow your progression down and could even pollute your brain space and the company culture.
+If you want to be a good developer, leave your ego in the closet. Don't bring it to your job. This will just slow your progression down and could even pollute your brain space and the company culture.
 
-### ❌ Taking what others say as personally
+### ❌ Taking what others say as personal
 
 ### ✅ See every feedback as a learning experience
 
-> When you write code, it’s not your code, it’s everybody’s else code. Don’t take what you write personally. It’s just a little part of the whole vessel.
+> When you write code, it's not your code, it's everybody else's code. Don't take what you write personally. It's just a little part of the whole vessel.
 
+Remember, **It is not who is right, but what is right**.
 
 **[⬆️ Back to top](#-table-of-contents)**
 
