@@ -158,10 +158,10 @@ function retrieveName(user) {
 }
 ```
 
-Uncle Bob explains this concept as "*Extract Till You Drop*" where you continuously extract your code into smaller, more manageable components.
-
+Uncle Bob explains this concept as "*Extract Till You Drop*" where you continuously extract your code into smaller and more manageable components.
 
 [![Video: Write clean code as a software engineer. One Thing Principle](https://i1.ytimg.com/vi/2kOfQHz3JFs/sddefault.jpg)](https://www.youtube.com/watch?v=fK9K-UrLHNE)
+
 
 **[⬆️ Back to top](#-table-of-contents)**
 
