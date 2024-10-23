@@ -117,9 +117,9 @@ Remember, **your job is to write efficient and meaningful code**, **not endless 
 
 ## The “One Thing” principle 1️⃣
 
-When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning comments. The code should say everything. No comments should be needed. Splitting the code into small, readable functions and reusable portions of code will drastically improve your code's readability and eliminate the need to copy/paste the same piece of code just because it hasn't been properly moved into reusable functions/classes.
+When writing a function, remind yourself that it should (ideally) do only one (simple) thing. Think about what you have already learned concerning comments. The code should say everything. No comments should be needed. Splitting the code into small, readable functions and reusable portions of code will drastically improve your code's readability and eliminate the need to copy/paste the same piece of code just because it hasn't been properly moved into reusable functions or classes.
 
-Just as individual Lego blocks can be combined to create larger structures, your functions should be small, focused units that can be composed together to accomplish more complex tasks.
+Just as individual LEGO blocks can be combined to create larger structures, your functions should be small, focused units that can be composed together to accomplish more complex tasks.
 
 ### ❌ Non-readable function
 
@@ -157,6 +157,8 @@ function retrieveName(user) {
   }
 }
 ```
+
+Uncle Bob explains this concept as "*Extract Till You Drop*" where you continuously extract your code into smaller, more manageable components.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
