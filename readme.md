@@ -345,27 +345,15 @@ if (_isEmpty(something)) {
 ### ✅ Clean way to filter out null and undefined values
 
 ```javascript
-
-const founderNames = ['', 'Pierre', 'Henry', 'Edward', '', null, undefined];
-
-console.log(founderNames.filter(Boolean));
-
-// Output: ['Pierre', 'Henry', 'Edward']
-
-// Removes all falsy values: empty strings, null, undefined
+names.filter(Boolean); // Gives only the defined names. Removes ALL falsy values
 ```
 
 ### ❌ Less readable way to filter out null/undefined values
 
 ```javascript
+names.filter((value) => value != null && value !== '');
 
-const founderNames = ['', 'Pierre', 'Henry', 'Edward', '', null, undefined];
-
-console.log(founderNames.filter((value) => value != null));
-
-// Output: ['', 'Pierre', 'Henry', 'Edward', '']
-
-// Loose equality (!=) removes null and undefined, but keeps empty strings
+// Note: Loose equality (!=) removes null and undefined, but keeps empty strings
 ```
 
 
