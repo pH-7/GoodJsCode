@@ -340,20 +340,20 @@ if (_isEmpty(something)) {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Filtering falsy values from arrays the clean way
+## Filtering empty values from arrays the clean way
+
+### ❌ Less readable way to filter out null/undefined values
+
+```javascript
+names.filter((value) => value !== null && value !== undefined && value !== '');
+
+// Note: Loose equality (!=) removes null and undefined, but keeps empty strings
+```
 
 ### ✅ Clean way to filter out null and undefined values
 
 ```javascript
 names.filter(Boolean); // Gives only the defined names. Removes ALL falsy values
-```
-
-### ❌ Less readable way to filter out null/undefined values
-
-```javascript
-names.filter((value) => value != null && value !== '');
-
-// Note: Loose equality (!=) removes null and undefined, but keeps empty strings
 ```
 
 
