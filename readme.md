@@ -25,6 +25,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Reuse your code across your different projects by packing them into small NPM libraries](#reuse-your-code-across-your-different-projects-by-packing-them-into-small-npm-libraries)
 - [Tests come first. Never Last](#-tests-come-first-never-last)
 - [Import only what you need](#import-only-what-you-need)
+- [Filtering falsy values from arrays the right way](#filtering-falsy-values-from-arrays-the-right-way)
 - [Conditions into clear function names](#refactoring-conditions-into-clear-functions)
 - [Readable Name: Variables](#readable-name-variables)
 - [Readable Name: Functions](#readable-name-functions)
@@ -374,7 +375,6 @@ console.log(founderNames.filter((value) => value != null));
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
-
 
 ## Refactoring conditions into clear functions
 
