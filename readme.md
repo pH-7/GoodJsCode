@@ -61,6 +61,8 @@ Time is so valuable and important (even more as a software engineer), so I will 
 
 ## Don’t comment on what it does ❌ Write what it does ✅
 
+> *Self-descriptive code is very important. Your code should simply self-document itself.*
+
 It's crucial to name your functions and variables in simple and explicit words so that they say what they do (just by reading their names).
 
 If the code requires too many comments to be understood, it means the code needs to be refactored. The code has to be understood by reading it. Not by reading the comments. And the same applies when you write tests. Having to justify what the code does is usually a bad sign of a code smell.
