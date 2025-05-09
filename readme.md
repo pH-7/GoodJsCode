@@ -791,6 +791,9 @@ switch (action) {
 Here, we keep the `default` clause, but we take benefit of it by throwing an exception.
 
 
+[![Video: Writing clean, neat, maintainable and scalable code. Removing redundant code](https://i1.ytimg.com/vi/6jwFHk5EN2Y/sddefault.jpg)](https://www.youtube.com/watch?v=6jwFHk5EN2Y)
+
+
 **[⬆️ Back to top](#-table-of-contents)**
 
 ---
