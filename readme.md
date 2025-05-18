@@ -8,7 +8,7 @@ I've been coding for over 10 years. Today, I decided to share my knowledge in te
 
 Every day, I review hundreds of lines of code. Brand new micro-services, new features, new refactoring, hotfixes, and so on. I've seen so many different coding styles as well as good and bad coding habits from the developers I've been working with.
 
-With this book, you will get the essentials to know, straight to the solution for writing better and cleaner code. It's a practical book. You won't have superfluous information. Just the important things ✅
+With this book, you will get **the essentials to know**, straight to the solution for writing better and cleaner code. It's a practical book. You won't have superfluous information. Just the important things ✅
 
 Time is so valuable and important (even more as a software engineer), so I will only share what you need to know, without unnecessary details, that are there only for making the book fatter.
 
