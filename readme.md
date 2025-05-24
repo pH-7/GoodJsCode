@@ -470,7 +470,7 @@ function removeSpecialCharactersInUrl(url) {
 }
 ```
 
-In short, function names should be like the subheadings in an article - they simply tell you what the function does.
+Function names are like subheadings in an article - they simply tell you what the function does.
 
 Also, each word of a function name should be capitalised except the first letter of the function. This is known as **lowerCamelCase**, like `isNameValid()`.
 
