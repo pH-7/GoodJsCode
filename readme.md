@@ -886,7 +886,7 @@ const index = () => {
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## 🇺🇸 American English spelling. The default choice when coding
+## 🇺🇸 American English spelling: The default choice when coding
 
 I always recommend using only **US English** in your code. If you mix both British and American spellings, it will introduce some sort of confusion later and might lead to interrogations for new developers joining the development of your software.
 
