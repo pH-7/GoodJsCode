@@ -51,7 +51,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Lock down your object](#lock-down-your-object-)
 - [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
-- [Avoid using `default export` as much as you can](#avoid-using-default-export-as-much-as-you-can)
+- [Avoid using `default export` as much as you can](#avoid-using-default-exports-as-much-as-you-can)
 - [Always write pure functions](#always-write-pure-functions)
 - [Don't overcomplicate things](#dont-overcomplicate-things)
 - [Linters and Formatters](#linters-and-formatters)
