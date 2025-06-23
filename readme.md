@@ -51,7 +51,7 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Lock down your object](#lock-down-your-object-)
 - [Consider aliases when destructing an object](#consider-aliases-when-destructing-an-object)
 - [Always use the strict type comparison](#always-use-the-strict-type-comparison)
-- [Avoid using `default export` as much as you can](#avoid-using-default-exports-as-much-as-you-can)
+- [Avoid using `export default` as much as you can](#avoid-using-default-exports-as-much-as-you-can)
 - [Always write pure functions](#always-write-pure-functions)
 - [Don't overcomplicate things](#dont-overcomplicate-things)
 - [Linters and Formatters](#linters-and-formatters)
@@ -1292,7 +1292,7 @@ You will have to update every name of your imports to match the new name of the 
 
 In large-scale projects, this not only takes more time, but also increases the risk of forgetting to rename an import (or introducing a typo).
 
-Using **named exports** instead allows your IDE's IntelliSense to detect and auto-import correctly during refactoring, which doesn’t happen as easily with renamed `default exports`.
+Using **named exports** instead allows your IDE's IntelliSense to detect and auto-import correctly during refactoring, which doesn’t happen as easily with renamed `export default`.
 
 
 At the end of the day, however, being consistent within your project and team regarding coding style and conventions is also an important factor to consider.
