@@ -1287,20 +1287,15 @@ if (props.address !== details.address) {
 
 ## Avoid using default exports as much as you can
 
-The main reason why you should avoid `export default` is that it makes refactoring very complex when you need to rename a class or a component name.
-You will have to update every name of your imports as it will need to match with the actual name of your default export class/function/component.
-When working on a large-scale project, in addition to spending more time, you will also increase the chance of forgetting to rename an import (or simply having a typo).
-Importing each function/class separately will help your IDE’s IntelliSense in picking up and auto-importing correctly when refactoring, which won’t be the case with a renamed default.
+The main reason you should avoid using `export default` is that it makes refactoring more complex when you need to rename a class or component.
+You will have to update every import to match the new name of the default-exported class, function, or component.
 
-The main reason why you should avoid export default is that it makes refactoring very complex when you need to rename a class or a component name.
+In large-scale projects, this not only takes more time, but also increases the risk of forgetting to rename an import (or introducing a typo).
 
-You will have to update every name of your imports as it will need to match with the actual name of your default export class/function/component.
+Using **named exports** instead allows your IDE's IntelliSense to detect and auto-import correctly during refactoring, which doesn’t happen as easily with renamed `default exports`.
 
-When working on a large-scale project, in addition to spending more time, you will also increase the chance of forgetting to rename an import (or simply having a typo).
 
-Importing each function/class separately will help your IDE’s IntelliSense in picking up and auto-importing correctly when refactoring, which won’t be the case with a renamed `default export`.
-
-At the end of the day though, being consistent with your project and your team on what coding style and convention you choose is also important to consider.
+At the end of the day, however, being consistent within your project and team regarding coding style and conventions is also an important factor to consider.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
