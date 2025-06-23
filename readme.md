@@ -1288,7 +1288,7 @@ if (props.address !== details.address) {
 ## Avoid using default exports as much as you can
 
 The main reason you should avoid using `export default` is that it makes refactoring more complex when you need to rename a class or component.
-You will have to update every import to match the new name of the default-exported class, function, or component.
+You will have to update every name of your imports to match the new name of the default-exported class, function, or component.
 
 In large-scale projects, this not only takes more time, but also increases the risk of forgetting to rename an import (or introducing a typo).
 
