@@ -44,7 +44,8 @@ Time is so valuable and important (even more as a software engineer), so I will 
 - [Readable numbers](#readable-numbers)
 - [Avoid “else-statement”](#avoid-else-statement)
 - [Prioritize `async`/`await` over Promises](#prioritize-asyncawait-over-promises)
-- [No magic numbers](#prioritize-asyncawait-over-promises)
+- [No magic numbers](no-magic-numbers-)
+- [No magic strings](no-magic-strings)
 - [Always use `assert.strictEqual`](#always-use-assertstrictequal)
 - [Updating an object - The right way](#updating-an-object---the-right-way)
 - [Stop using `Date()` when doing benchmarks](#stop-using-date-when-doing-benchmarks)
@@ -1107,6 +1108,44 @@ getLatestBlogPost(0, POSTS_PER_PAGE);
 
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
+
+## No magic strings
+
+Similarly to [magic numbers](no-magic-numbers-), “**magic strings**” are hardcoded strings that make the codebase harder to understand, more prone to typos, less flexible when the strings need to be changed, create duplication, and harder to maintain in general.
+
+### ❌ Code containing magic strings
+
+```javascript
+const getProviderName = () => {
+  switch (this.selectedProvider) {
+    case 'openai':
+      return 'OpenAI';
+    case 'gemini':
+    default:
+      return 'Gemini';
+  }
+}
+```
+
+### ✅ No hardcoded strings
+
+```javascript
+const getProviderName = () => {
+    return PROVIDER_DISPLAY_NAMES[this.selectedProvider] || PROVIDER_DISPLA
+Y_NAMES[AI_PROVIDERS.GEMINI];
+}
+```
+
+Another common example is storing end-user application messages in constants. This allows you to change the value of each constant key without digging into the application and changing string messages one by one.
+
+
+**[⬆️ Back to top](#-table-of-contents)**
+
+---
+
+<!-- New Section (page) -->
+<!-- (c) Pierre-Henry Soria -->
+
 
 ## Always use `assert.strictEqual`
 
