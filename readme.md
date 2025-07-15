@@ -1131,8 +1131,7 @@ const getProviderName = () => {
 
 ```javascript
 const getProviderName = () => {
-    return PROVIDER_DISPLAY_NAMES[this.selectedProvider] || PROVIDER_DISPLA
-Y_NAMES[AI_PROVIDERS.GEMINI];
+    return PROVIDER_NAMES[this.selectedProvider] || PROVIDER_NAMES[AI_PROVIDERS.GEMINI];
 }
 ```
 
