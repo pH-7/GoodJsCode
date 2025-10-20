@@ -1331,8 +1331,7 @@ You will have to update every name of your imports to match the new name of the 
 
 In large-scale projects, this not only takes more time, but also increases the risk of forgetting to rename an import (or introducing a typo).
 
-Using **named exports** instead allows your IDE's IntelliSense to detect and auto-import correctly during refactoring, which doesn’t happen as easily with renamed `export default`.
-
+Using **named exports** instead allows your IDE's IntelliSense to detect and auto-import correctly during refactoring, which doesn’t happen as easily with a renamed default export.
 
 At the end of the day, however, being consistent within your project and team regarding coding style and conventions is also an important factor to consider.
 
