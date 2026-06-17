@@ -248,7 +248,7 @@ Don't spend time and resources on what you might not need.
 
 ## Reuse your code across your different projects by packing them into small NPM libraries
 
-### ❌ Wrong approach
+### ❌ Incorrect approach
 
 My project is small (well, it always starts small).
 I don’t want to spend time splitting functionalities into separated packages. Later on, somehow, my project grow bigger and bigger indeed. However, since I haven’t spent time splitting my code into packages at the beginning. Now, I think it will take even longer to refactor my code into reusable packages.
