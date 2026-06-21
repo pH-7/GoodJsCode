@@ -907,7 +907,7 @@ Finally, I've noticed that it's easier to misspell words with the British spelli
 
 ## Destructuring array elements. Make it readable
 
-When you need to **destructure** an array with JavaScript (ES6 and newer), and you want to pick up only a specific element, there is a much cleaner way than using `,` to skip the previous indices.
+When you need to destructure an array with JavaScript (ES6 and newer), and you want to pick up only a specific element, there is a much cleaner way than using `,` to skip the previous indices.
 
 ### ❌ Bad Way
 
