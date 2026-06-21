@@ -905,9 +905,9 @@ Finally, I've noticed that it's easier to misspell words with the British spelli
 <!-- New Section (page) -->
 <!-- (c) Pierre-Henry Soria -->
 
-## Destructing array elements. Make it readable
+## Destructuring array elements. Make it readable
 
-When you need to destruct an array with JavaScript (ES6 and newer), and you want to pickup only the second or third array, there is a much cleaner way than using the `,` to skip the previous array keys.
+When you need to **destructure** an array with JavaScript (ES6 and newer), and you want to pick up only a specific element, there is a much cleaner way than using `,` to skip the previous indices.
 
 ### ❌ Bad Way
 
@@ -918,7 +918,6 @@ const meals = [
   'Apéro',
   'Dinner'
 ];
-
 const [, , , favoriteMeal] = meals;
 console.log(favoriteMeal); // Dinner
 ```
@@ -928,16 +927,15 @@ console.log(favoriteMeal); // Dinner
 ```javascript
 const meals = [
   'Breakfast', // index 0
-  'Lunch', // index 1
-  'Apéro', // index 2
-  'Dinner' // index 3
+  'Lunch',     // index 1
+  'Apéro',     // index 2
+  'Dinner'     // index 3
 ];
-
-const { 3: favoriteMeal } = meals; // Get the 4th value, index '3'
+const { 3: favoriteMeal } = meals; // Get the 4th element, at index 3
 console.log(favoriteMeal); // Dinner
 ```
 
-Here, we destruct the array as an object with its index number and give an alias name `favoriteMeal` to it.
+Here, we destructure the array as an object using its index number and give an alias name `favoriteMeal` to it.
 
 
 **[⬆️ Back to top](#-table-of-contents)**
