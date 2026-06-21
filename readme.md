@@ -918,6 +918,7 @@ const meals = [
   'Apéro',
   'Dinner'
 ];
+
 const [, , , favoriteMeal] = meals;
 console.log(favoriteMeal); // Dinner
 ```
@@ -931,6 +932,7 @@ const meals = [
   'Apéro',     // index 2
   'Dinner'     // index 3
 ];
+
 const { 3: favoriteMeal } = meals; // Get the 4th element, at index 3
 console.log(favoriteMeal); // Dinner
 ```
