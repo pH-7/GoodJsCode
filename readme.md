@@ -1507,7 +1507,7 @@ Finally, you can very easily set up a GitHub workflow action for your project.
 
 Writing clean and readable code that scales is crucial for tomorrow's development and maintenance. When we write code for a job, it's not our code, it's everybody else's code. That fact of writing code that doesn't require brain power will prevent misunderstandings or errors that could have been easily avoided by making the code easy to understand where it tells right away what it does.
 
-[![Principles for writing clean maintainable code in JavaScript](https://i1.ytimg.com/vi/AYuZP2jYJbQ/sddefault.jpg)](https://www.youtube.com/watch?v=AYuZP2jYJbQ)
+[![Principles for writing clean, maintainable code in JavaScript](https://i1.ytimg.com/vi/AYuZP2jYJbQ/sddefault.jpg)](https://www.youtube.com/watch?v=AYuZP2jYJbQ)
 
 
 **[⬆️ Back to top](#-table-of-contents)**
