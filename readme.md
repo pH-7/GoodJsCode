@@ -1346,10 +1346,10 @@ At the end of the day, however, being consistent within your project and team re
 
 ## Always write pure functions
 
-> If a tree falls in the woods, does it make a sound?
-> If a pure function mutates some local data in order to produce an immutable return value, is this okay?
+> *If a tree falls in the woods, does it make a sound?
+> If a pure function mutates some local data in order to produce an immutable return value, is this okay?*
 >
-> Rich Hickey. Creator of the [Clojure](https://en.wikipedia.org/wiki/Clojure)
+> — Rich Hickey. Creator of the [Clojure](https://en.wikipedia.org/wiki/Clojure)
 
 
 Given a specific input (argument) to a function, a pure function <ins>always returns the same output</ins> as the pure function doesn't modify their input values.
